@@ -2,5 +2,5 @@
 
 # tecnologies: NextJS13
 
-# 1- npm install
+# 1- pnpm install
 # 2- npm run dev
