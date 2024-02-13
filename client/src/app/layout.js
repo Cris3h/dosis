@@ -4,9 +4,11 @@ import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
+
 export const metadata = {
-  title: "DrHelper",
-  description: "pediatrician helper",
+  title: "Dr Dosage",
+  description: "pediatrician doses",
 };
 
 export default function RootLayout({ children }) {

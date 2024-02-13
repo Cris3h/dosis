@@ -1,0 +1,1303 @@
+{
+  "medicamentos": [
+    {
+      "ID": 1,
+      "nombre": "AMOXICILINA",
+      "presentaciones": [
+        {
+          "dosificacion": "250mg/5ml",
+          "forma": "Suspensión",
+          "volumenes": [
+            { "cantidad": 90, "dosis": 18 },
+            { "cantidad": 120, "dosis": 24 }
+          ]
+        },
+        {
+          "dosificacion": "500mg/5ml",
+          "forma": "Suspensión vía oral",
+          "volumenes": [
+            { "cantidad": 90, "dosis": null },
+            { "cantidad": 120, "dosis": null }
+          ]
+        },
+        {
+          "dosificacion": "750mg/ml",
+          "forma": "Suspensión vía oral",
+          "volumenes": [
+            { "cantidad": 70, "dosis": 14 },
+            { "cantidad": 120, "dosis": 24 }
+          ]
+        }
+      ],
+      "dosis": "DOSIS: 50 A 100MG/KG/DÍA POR 3 DOSIS."
+    },
+    {
+      "ID": 2,
+      "nombre": "AMOXICILINA / ÁCIDO CLAVULÁNICO",
+      "presentaciones": [
+        {
+          "dosificacion": "400mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [
+            { "cantidad": 70, "dosis": null },
+            { "cantidad": 120, "dosis": null }
+          ]
+        },
+        {
+          "dosificacion": "600mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [{ "cantidad": 140, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 40 A 90MG/KG/DÍA DIVIDIDO 3. OTITIS GRAVE O RECURRENTE 80 A 90MG/KG/DÍA DIVIDIDO 3."
+    },
+    {
+      "ID": 3,
+      "nombre": "AMBROXOL CLORHIDRATO",
+      "presentaciones": [
+        {
+          "dosificacion": "15mg/5ml",
+          "forma": "Jarabe",
+          "volumenes": [{ "cantidad": 120, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 2 a 5 años: 2,5 ml, 2 a 3 veces por día. Hasta 7.5 ml por día. > 5 años: 5 ml, 2 a 3 veces al día. Hasta 15 ml por día. No superar los 8 a 10 días."
+    },
+    {
+      "ID": 4,
+      "nombre": "AZITROMICINA",
+      "presentaciones": [
+        {
+          "dosificacion": "200mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [{ "cantidad": 15, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 10MG/KG/DÍA CADA 24HS. >40KG = 500MG 1er DÍA, LUEGO 250MG."
+    },
+    {
+      "ID": 5,
+      "nombre": "AMPICILINA",
+      "dosis": "Dosis: 100MG/KG/DÍA CADA 6HS ó 400MG/KG/DÍA CADA 6HS (MENINGITIS)."
+    },
+    {
+      "ID": 6,
+      "nombre": "BETAMETASONA",
+      "presentaciones": [
+        {
+          "dosificacion": "0.1%",
+          "forma": "Crema",
+          "volumenes": [{ "cantidad": 15, "dosis": null }]
+        },
+        {
+          "dosificacion": "0,6mg/ml",
+          "forma": "Gotas orales",
+          "volumenes": [{ "cantidad": 30, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 0,25MG/KG/DÍA CADA 6 – 8HS. 20 gotas = 1ml = 0,6mg. Cada gota = 0,03mg. Dosis inicial = 0,6 a 2,5mg cada 8hs."
+    },
+    {
+      "ID": 7,
+      "nombre": "BROMHEXINA CLORHIDRATO",
+      "presentaciones": [
+        {
+          "dosificacion": "4mg/5ml",
+          "forma": "Jarabe",
+          "volumenes": [{ "cantidad": 120, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: Niños de 6 a 12 años: 5 ml cada 8 horas. Mayores de 12 años: 10 ml cada 8 horas."
+    },
+    {
+      "ID": 8,
+      "nombre": "CEFTRIAXONA SÓDICA",
+      "presentaciones": [
+        {
+          "dosificacion": "500mg",
+          "forma": "Intravenosa / Intramuscular",
+          "volumenes": [{ "cantidad": 1, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 50MG/KG/DÍA CADA 24HS. MÁXIMA DOSIS = 4GR/DÍA."
+    },
+    {
+      "ID": 9,
+      "nombre": "CLARITROMICINA",
+      "presentaciones": [
+        {
+          "dosificacion": "125mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [{ "cantidad": 50, "dosis": null }]
+        },
+        {
+          "dosificacion": "250mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [{ "cantidad": 50, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 7.5MG/KG/DÍA CADA 12HS. DOSIS MÁXIMA: 500MG."
+    },
+    {
+      "ID": 10,
+      "nombre": "DEXAMETASONA",
+      "presentaciones": [
+        {
+          "dosificacion": "0.5mg",
+          "forma": "Comprimidos",
+          "volumenes": [{ "cantidad": 20, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 0,2MG/KG/DÍA CADA 12HS POR 2 DÍAS. SEGUIDO POR 0,1MG/KG/DÍA CADA 12HS."
+    },
+    {
+      "ID": 11,
+      "nombre": "CEFTRIAXONA",
+      "presentaciones": [
+        {
+          "dosificacion": "1g",
+          "forma": "Inyectable",
+          "volumenes": [{ "cantidad": 1, "dosis": null }]
+        },
+        {
+          "dosificacion": "500mg",
+          "forma": "Inyectable",
+          "volumenes": [{ "cantidad": 1, "dosis": null }]
+        }
+      ],
+      "dosis": "DOSIS: 50 A 100MG/KG/DÍA CADA 12 – 24HS."
+    },
+    {
+      "ID": 12,
+      "nombre": "CETIRIZINA DICLORHIDRATO",
+      "presentaciones": [
+        {
+          "dosificacion": "10mg/ml",
+          "forma": "Gotas",
+          "volumenes": [{ "cantidad": 20, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 6 A 23 MESES = 2,5MG (5 GOTAS), UNA VEZ AL DÍA. 2 A 6 AÑOS = 2,5MG UNA O DOS VECES AL DÍA O 5MG (10 GOTAS), UNA VEZ AL DÍA. 6 A 11 AÑOS = 5MG (10 GOTAS), 2 VECES POR DÍA. 1ML = 20 GOTAS = 10MG."
+    },
+    {
+      "ID": 13,
+      "nombre": "CLARITROMICINA",
+      "presentaciones": [
+        {
+          "dosificacion": "125mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [{ "cantidad": 60, "dosis": null }]
+        },
+        {
+          "dosificacion": "250mg/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [{ "cantidad": 60, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 15MG/KG/DÍAS CADA 12HS."
+    },
+    {
+      "ID": 14,
+      "nombre": "CLINDAMICINA PALMITATO CLORHIDRATO",
+      "presentaciones": [
+        {
+          "dosificacion": "75mg/5ml",
+          "forma": "Solución oral",
+          "volumenes": [{ "cantidad": 100, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: < 10KG = 2,5ML = 37,5MG. INFECCIONES GRAVES: 8 – 12MG/KG/DÍA. 13 A 21KG: 2,5 – 5ML CADA 6 – 8HS. 22 A 40KG: 5 – 7,5ML CADA 6 – 8HS."
+    },
+    {
+      "ID": 15,
+      "nombre": "CLOTRIMAZOL",
+      "presentaciones": [
+        {
+          "dosificacion": "1%",
+          "forma": "Crema",
+          "volumenes": [{ "cantidad": 20, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 2 A 3 VECES AL DÍA, POR 1 A 4 SEMANAS. LAVAR LA ZONA CON AGUA Y JABÓN Y SECAR CON SERVILLETAS DE PAPEL."
+    },
+    {
+      "ID": 16,
+      "nombre": "CLORURO DE SODIO",
+      "presentaciones": [
+        {
+          "dosificacion": "3%",
+          "forma": "Solución hipertónica",
+          "volumenes": [{ "cantidad": 7.5, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 1 – 3 GOTAS EN CADA FOSA NASAL, TANTAS VECES COMO SEA NECESARIO."
+    },
+    {
+      "ID": 17,
+      "nombre": "CLORURO DE SODIO AL 3%",
+      "presentaciones": [
+        {
+          "dosificacion": "Solución hipertónica",
+          "forma": "Spray Nasal",
+          "volumenes": [
+            { "cantidad": 25, "dosis": null },
+            { "cantidad": 45, "dosis": null }
+          ]
+        }
+      ],
+      "dosis": "Dosis: 1 Ó 2 PULSACIONES EN CADA FOSA NASAL, 3 Ó MÁS VECES AL DÍA."
+    },
+    {
+      "ID": 18,
+      "nombre": "CLORURO DE SODIO 3% + BUDESONIDE 50mcg",
+      "presentaciones": [
+        {
+          "dosificacion": "Spray Nasal",
+          "forma": "Spray Nasal",
+          "volumenes": [{ "cantidad": 200, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 1 INHALACIÓN EN CADA FOSA NASAL, 2 A 3 VECES POR DÍA."
+    },
+    {
+      "ID": 19,
+      "nombre": "CLORURO DE SODIO 3% + BUDESONIDE 100mcg",
+      "presentaciones": [
+        {
+          "dosificacion": "Spray Nasal",
+          "forma": "Spray Nasal",
+          "volumenes": [{ "cantidad": 100, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: INICIAL → 1 INHALACIÓN EN CADA FOSA NASAL CADA 12HS. MANTENIMIENTO → 1 INHALACIÓN EN CADA FOSA NASAL CADA 24HS."
+    },
+    {
+      "ID": 20,
+      "nombre": "DESLORATADINA",
+      "presentaciones": [
+        {
+          "dosificacion": "5mg/10ml",
+          "forma": "Jarabe",
+          "volumenes": [{ "cantidad": 50, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 6 A 11 MESES = 2MG (1ML), 1 VEZ POR DÍA. 12 MESES A 5 AÑOS = 1,25MG (2,5ML), 1 VEZ POR DÍA. 6 A 11 AÑOS = 2,5MG (5ML), 1 VEZ POR DÍA. > 12 AÑOS = 5MG (10ML)."
+    },
+    {
+      "ID": 21,
+      "nombre": "DESLORATADINA / BETAMETASONA",
+      "presentaciones": [
+        {
+          "dosificacion": "1mg/ml",
+          "forma": "Jarabe",
+          "volumenes": [{ "cantidad": 60, "dosis": null }]
+        },
+        {
+          "dosificacion": "0.05mg/ml",
+          "forma": "Jarabe",
+          "volumenes": [{ "cantidad": 60, "dosis": null }]
+        }
+      ],
+      "dosis": "Dosis: 2 A 5 AÑOS = 1,25ML, 1 VEZ AL DÍA; 6 A 11 AÑOS = 2,5ML; > 12 AÑOS = 5ML POR DÍA."
+    },
+    {
+      "ID": 22,
+      "nombre": "DEXAMETASONA",
+      "presentaciones": [
+        {
+          "dosificacion": "8mg/2ml",
+          "forma": "Solución inyectable",
+          "volumenes": [{ "cantidad": null, "dosis": "0,25 – 0,6mg/kg/dosis" }]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 23,
+      "nombre": "DEXAMETASONA / CLORFENIRAMINA",
+      "presentaciones": [
+        {
+          "dosificacion": "2,5mg / 40mg",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 100,
+              "dosis": "6 A 12 AÑOS = 5ML CADA 4 Ó 6HS; >12 AÑOS = 10ML CADA 4 Ó 6HS"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 24,
+      "nombre": "DIAZEPAM",
+      "presentaciones": [
+        {
+          "dosificacion": "10mg/2ml",
+          "forma": "Solución Inyectable",
+          "volumenes": [
+            {
+              "cantidad": null,
+              "dosis": "E.V: > 30 DÍAS = 0,1 – 0,3 MG/KG/DOSIS CADA 5 – 10MIN. DOSIS MÁXIMA < 5 AÑOS = 5MG. > 5 AÑOS = 10MG"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 25,
+      "nombre": "DIFENHIDRAMINA HCL",
+      "presentaciones": [
+        {
+          "dosificacion": "250mg/100ml",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "1 A 2 AÑOS = 5ML (12,5MG) CADA 6 A 8HS. > 2 AÑOS = 7,5 – 10ML (18,75 – 25MG) CADA 6 A 8HS"
+            }
+          ]
+        },
+        {
+          "dosificacion": "Inyectable",
+          "forma": "Ampolla",
+          "volumenes": [
+            {
+              "cantidad": "10mg/ml",
+              "dosis": "5MG/KG/DÍA. MÁXIMO = 300MG/DÍA REPARTIDOS EN 4 DOSIS"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 26,
+      "nombre": "DIPIRONA",
+      "presentaciones": [
+        {
+          "dosificacion": "5%",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": ">6 MESES: 10MG/KG/DOSIS CADA 6 HORAS"
+            }
+          ]
+        },
+        {
+          "dosificacion": "1g/2ml",
+          "forma": "Ampolla",
+          "volumenes": [
+            { "cantidad": null, "dosis": "30 – 50MG/KG/DÍA DIVIDIDO 4 DOSIS" }
+          ]
+        }
+      ],
+      "dosis": "DOSIS MÁXIMA (DM) Y DOSIS INDIVIDUAL (DI) SEGÚN PESO Y/O EDAD = 5 A 8KG (3 – 11 MESES) → DI: 1,25 A 2,5ML Y DM: 2,5ML POR 4 DOSIS. 9 A 15KG (1 – 3 AÑOS) → DI: 2,5 A 5ML Y DM: 5ML POR 4 DOSIS. 16 A 23KG (4 – 6 AÑOS) → DI: 3,75 A 7,5ML Y DM: 7,5ML POR 4 DOSIS. 24 A 30KG (7 – 9 AÑOS) → DI: 5 A 10ML Y DM: 10ML POR 4 DOSIS. 31 A 45KG (10 – 12 AÑOS) → DI: 7,5 A 15ML Y DM: 15ML POR 4 DOSIS. 46 A 53KG (13 – 14 AÑOS) →DI: 8,75 A 17,5ML Y DM: 17,5ML POR 4 DOSIS. ≥ 15 AÑOS → 10 A 20ML POR 4 DOSIS Ó 1 A 2 COMPRIMIDOS POR 4 DOSIS. CADA 5ML DE JARABE = 250MG."
+    },
+    {
+      "ID": 27,
+      "nombre": "DOMPERIDONA",
+      "presentaciones": [
+        {
+          "dosificacion": "1%",
+          "forma": "Gotas",
+          "volumenes": [
+            { "cantidad": 20, "dosis": "0,2 – 0,4MG/KG/DOSIS. (0,5MG/GOTA)" }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 28,
+      "nombre": "ERITROMICINA",
+      "presentaciones": [
+        {
+          "dosificacion": "200mg/5ml",
+          "forma": "Suspensión",
+          "volumenes": [
+            { "cantidad": 60, "dosis": "40 Y 50MG/KG/DÍA CADA 6 – 8HS" },
+            { "cantidad": 100, "dosis": "40 Y 50MG/KG/DÍA CADA 6 – 8HS" }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 29,
+      "nombre": "FAMOTIDINA",
+      "presentaciones": [
+        {
+          "dosificacion": "20mg/5ml",
+          "forma": "Suspensión extemporánea",
+          "volumenes": [
+            {
+              "cantidad": 90,
+              "dosis": "LACTANTES – 3 MESES → 0,5 – 1MG/KG, 1 VEZ AL DÍA. 3 MESES – 1 AÑO → 0,5 – 1MG/KG, 2 VECES POR DÍA. 1 – 17 AÑOS → 0,5 MG/KG, 1 VEZ AL DÍA Ó 0,25MG/KG, 2 VECES AL DÍA, Ó 1MG/KG, 1 VEZ AL DÍA ANTES DE ACOSTARSE, Ó 0,5MG/KG, 2 VECES AL DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 30,
+      "nombre": "GENTAMICINA",
+      "presentaciones": [],
+      "dosis": "DOSIS: 5 – 7,5MG/KG/DÍA CADA 8HS (E.V DILUIDO A PASAR EN 30MIN)."
+    },
+    {
+      "ID": 31,
+      "nombre": "HALOPERIDOL",
+      "presentaciones": [
+        {
+          "dosificacion": "2mg/ml",
+          "forma": "Gotas",
+          "volumenes": [
+            {
+              "cantidad": 20,
+              "dosis": "3 A 12AÑOS (15 A 40KG) → 0,5MG/DÍA, 2 A 3 TOMAS DIARIAS. DESÓRDENES PSICÓTICOS: 0,05 A 0,75MG/KG/DÍA"
+            }
+          ]
+        },
+        {
+          "dosificacion": "2mg/ml",
+          "forma": "Gotas",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "3 A 12AÑOS (15 A 40KG) → 0,5MG/DÍA, 2 A 3 TOMAS DIARIAS. DESÓRDENES PSICÓTICOS: 0,05 A 0,75MG/KG/DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 32,
+      "nombre": "HIDROCORTISONA",
+      "presentaciones": [
+        {
+          "dosificacion": "1%",
+          "forma": "Crema",
+          "volumenes": [
+            {
+              "cantidad": 15,
+              "dosis": "APLICAR 1 A 2 VECES POR DÍA POR 7 DÍAS MÁXIMO"
+            }
+          ]
+        },
+        {
+          "dosificacion": null,
+          "forma": "Parenteral",
+          "volumenes": [
+            {
+              "cantidad": null,
+              "dosis": "ANTIINFLAMATORIO → E.V / I.M = 1 – 5MG/KG/DÍA CADA 12 – 24HS. E.V / I.M EN LACTANTES Y < 12 AÑOS = 25 – 150MG/DÍA CADA 6 – 8HS"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 33,
+      "nombre": "HIOSCINA BUTILBROMURO",
+      "presentaciones": [
+        {
+          "dosificacion": "20mg/ml",
+          "forma": "Solución inyectable",
+          "volumenes": [
+            {
+              "cantidad": null,
+              "dosis": "ANTISECRETORIO → EV / SC / IM → LACTANTES Y < 6 AÑOS = 0,3 A 0,6MG/KG/DOSIS. 6 A 12 AÑOS = 5 A 10MG/DOSIS HASTA 3 VECES POR DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 34,
+      "nombre": "IBUPROFENO",
+      "presentaciones": [
+        {
+          "dosificacion": "al 2%",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 100,
+              "dosis": "10 A 40MG/KG/DÍA. 6 – 12MESES: 2,5ML → 3 Ó 4 VECES AL DÍA. 1 – 3 AÑOS: 5ML → 3 VECES POR DÍA. 4 – 6 AÑOS: 7,5ML → 3 VECES POR DÍA"
+            }
+          ]
+        },
+        {
+          "dosificacion": "Al 4%",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 90,
+              "dosis": "20KG → T°C < 39 = 2,5ML; T°C > 39 = 5ML CADA 6 A 8HS. 20 A 40KG → T°C < 39 = 4ML; T°C > 39 = 7,5ML"
+            }
+          ]
+        }
+      ],
+      "dosis": "DOSIS EN MG/KG/DÍA = 20 A 40. DOSIS PRÁCTICA = 2% = PESO/2; 4% = PESO/4. CADA 6 – 8HS → EL RESULTADO ME DA LOS ML QUE DEBE TOMAR. EJ: 2%, PCTE 20KG = 20/2 = 10ML."
+    },
+    {
+      "ID": 35,
+      "nombre": "IPRATROPIO BROMURO",
+      "presentaciones": [
+        {
+          "dosificacion": "20mcg/dosis",
+          "forma": "Aerosol",
+          "volumenes": [
+            { "cantidad": 250, "dosis": "> 6 AÑOS = 40MCG CADA 6 A 8HS" }
+          ]
+        },
+        {
+          "dosificacion": "20mg/100ml",
+          "forma": "Solución para nebulización",
+          "volumenes": [
+            {
+              "cantidad": 20,
+              "dosis": "0 A 5 AÑOS = 125 A 250MCG (0,125 A 0,25MG = 8 A 20 GOTAS). 6 A 12 AÑOS = 1ML → 20 GOTAS = 0,25MG (1 GOTA = 0,0125MG) 3 A 4 VECES POR DÍA. >12 AÑOS = 40 GOTAS (2ML = 0,5MG) 3 A 4 VECES POR DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 36,
+      "nombre": "KETOCONAZOL",
+      "presentaciones": [
+        {
+          "dosificacion": "2g/100ml",
+          "forma": "Suspensión oral",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "< 5KG = 1ML, CON UNA DE LAS COMIDAS PRINCIPALES, 3 VECES AL DÍA. 15 A 30KG = 5ML, 1 VEZ AL DÍA. > 30KG = 10ML, 1 VEZ AL DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 37,
+      "nombre": "KETOROLAC TROMETAMIDA",
+      "presentaciones": [
+        {
+          "dosificacion": "30mg/ml",
+          "forma": "Ampolla de 1ml",
+          "volumenes": [
+            { "cantidad": null, "dosis": "5 A 7MG/KG/DÍA, 1 TOMA DIARIA" }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 38,
+      "nombre": "LACTULOSA",
+      "presentaciones": [
+        {
+          "dosificacion": "65g/100ml",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "< 6 MESES = 2,5ML CADA 12HS. 6 MESES A 2 AÑOS = 2,5 A 5ML CADA 12HS. 2 A 12 AÑOS = 10 A 15ML CADA 12HS. > 12AÑOS = 15ML CADA 12HS"
+            }
+          ]
+        }
+      ],
+      "dosis": "MÁXIMO 60ML/DÍA. DOSIS POR ML/KG/DÍA = 1 – 2ML/KG/DÍA."
+    },
+    {
+      "ID": 39,
+      "nombre": "LIDOCAÍNA / HIDROCORTISONA ACETATO",
+      "presentaciones": [
+        {
+          "dosificacion": "5% / 0,25%",
+          "forma": "Pomada",
+          "volumenes": [{ "cantidad": 15, "dosis": null }]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 40,
+      "nombre": "LOPERAMIDA CLORHIDRATO",
+      "presentaciones": [
+        {
+          "dosificacion": "2mg",
+          "forma": "Por 10 comprimidos",
+          "volumenes": []
+        },
+        {
+          "dosificacion": "0,2mg/ml",
+          "forma": "Solución oral",
+          "volumenes": [
+            {
+              "cantidad": 60,
+              "dosis": "INICIAL → 10GOTAS/KG/DÍA (0,1MG/KG/DÍA) EN 3 TOMAS. > 20KG = 5ML (1MG) POR CADA 10KG, EN 2 Ó 3 TOMAS. MANTENIMIENTO = 10GOTAS/KG/DÍA EN 2 A 3 TOMAS. 5ML/10KG DE PESO/DÍA EN 2 A 3 TOMAS. DOSIS MÁXIMA: 2 – 5 AÑOS → 3MG/DÍA. 6 – 8 AÑOS → 4MG/DÍA. 9 – 11 → 6MG/DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": "DOSIS COMPRIMIDOS: > 12 AÑOS = 4MG (2 COMPRIMIDOS), SEGUIDO DE 2MG (1 COMPRIMIDO) DESPUÉS DE CADA DEPOSICIÓN. DOSIS MÁXIMA = 16MG/DÍA."
+    },
+    {
+      "ID": 41,
+      "nombre": "LORATADINA",
+      "presentaciones": [
+        {
+          "dosificacion": "1mg/ml",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 60,
+              "dosis": "2 A 12 AÑOS = ≤ 30KG → 5ML (5MG) 1 VEZ AL DÍA. > 30KG → 10ML (10MG) AL DÍA"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 42,
+      "nombre": "LORAZEPAM",
+      "presentaciones": [
+        {
+          "dosificacion": "4mg/ml",
+          "forma": "Ampolla de 1ml",
+          "volumenes": []
+        }
+      ],
+      "dosis": "LACTANTES Y NIÑOS = 0,05MG/KG/DOSIS."
+    },
+    {
+      "ID": 43,
+      "nombre": "MEBENDAZOL",
+      "presentaciones": [
+        {
+          "dosificacion": "4g/100ml",
+          "forma": "Suspensión",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "1) OXIURIOS = 100MG (2,5ML) DOSIS ÚNICA, REPETIR A LOS 15 DÍAS. 2) ASCHARIS, TRICHURIS, TENIAS = 100MG (2,5ML), 2 VECES AL DÍA POR 3 DÍAS"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 44,
+      "nombre": "MEPREDNISONA",
+      "presentaciones": [
+        {
+          "dosificacion": "4mg/ml",
+          "forma": "Solución - Gotas",
+          "volumenes": [
+            {
+              "cantidad": 20,
+              "dosis": "CRISIS ASMÁTICA → 1 – 2MG/KG/DÍA CADA 8 – 12HS. 5 GOTAS = 1MG."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 45,
+      "nombre": "METOCLOPRAMIDA",
+      "presentaciones": [
+        {
+          "dosificacion": "10mg/2ml",
+          "forma": "Ampolla de 2ml",
+          "volumenes": [
+            {
+              "cantidad": 3,
+              "dosis": "LACTANTES → CADA GOTA AL 2‰ = (0,1MG); 10GOTAS (1MG); 20GOTAS (2MG); 30GOTAS (3MG); 40 GOTAS (4MG) → DOSIS TOTAL = 5 GOTAS/KG/DÍA (0,5MG/KG/DÍA). NIÑOS → 0,5MG/KG/DÍA DE GOTAS AL 2‰. > 12 AÑOS → GOTAS AL 5‰: 1 GOTA (0,25MG); 10 GOTAS (2,5MG); 20 GOTAS (5MG); 40 GOTAS (10MG) → 20 A 40 GOTAS, 3 VECES POR DÍA, 30MIN ANTES DE LAS COMIDAS."
+            },
+            {
+              "cantidad": 6,
+              "dosis": "IDEM"
+            }
+          ]
+        },
+        {
+          "dosificacion": "2‰ y 5‰",
+          "forma": "Gotas por 20ml",
+          "volumenes": null
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 46,
+      "nombre": "METRONIDAZOL",
+      "presentaciones": [
+        {
+          "dosificacion": "1%",
+          "forma": "Crema dérmica",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "125MG/5ML – SUSPENSIÓN ORAL POR 120ML. DOSIS: 15MG/KG/DÍA CADA 8HS POR 7 – 10 DÍAS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 47,
+      "nombre": "MIDAZOLAM",
+      "presentaciones": [
+        {
+          "dosificacion": "15mg/3ml",
+          "forma": "Solución inyectable",
+          "volumenes": [
+            {
+              "cantidad": 2,
+              "dosis": "0,1 – 0,3MG/KG/DOSIS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 48,
+      "nombre": "MOMETASONA",
+      "presentaciones": [
+        {
+          "dosificacion": "0,1g/100g",
+          "forma": "Crema",
+          "volumenes": [
+            {
+              "cantidad": 15,
+              "dosis": ">2 AÑOS: 1 VEZ AL DÍA, NO MÁS DE 2 SEMANAS, NO EN DERMATITIS DEL PAÑAL, NO OCLUIR."
+            },
+            {
+              "cantidad": 30,
+              "dosis": "IDEM"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 49,
+      "nombre": "MORFINA CLORHIDRATO TRIHIDRATO",
+      "presentaciones": [
+        {
+          "dosificacion": "10mg/ml y 20m/ml",
+          "forma": "Solución inyectable",
+          "volumenes": [
+            {
+              "cantidad": 1,
+              "dosis": "0,05MG/KG CADA 4HS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 50,
+      "nombre": "MUPIROCINA",
+      "presentaciones": [
+        {
+          "dosificacion": "2%",
+          "forma": "Crema",
+          "volumenes": [
+            {
+              "cantidad": 15,
+              "dosis": "2 - 3 VECES AL DÍA, MÁXIMO DE 10 DÍAS. EVALUAR A LOS 5 DÍAS (PUEDE O NO CUBRIR LA ZONA TRATADA CON UN VENDAJE O GASA)."
+            },
+            {
+              "cantidad": 3,
+              "dosis": "IDEM"
+            },
+            {
+              "cantidad": 5,
+              "dosis": "IDEM"
+            },
+            {
+              "cantidad": 15,
+              "dosis": "IDEM"
+            }
+          ]
+        },
+        {
+          "dosificacion": "Ungüento",
+          "forma": "Por 3, 5g (Nasal) y 15g",
+          "volumenes": null
+        }
+      ],
+      "dosis": "UNGÜENTO NASAL →2 - 3 VECES AL DÍA, 5 A 7 DÍAS. (CON EL DEDO MEÑIQUE O CON UN APLICADOR DE PUNTA DE ALGODÓN BASTONCILLO O TORUNDA, APROXIMADAMENTE 30 MG DE POMADA), EN LA SUPERFICIE INTERNA DE CADA FOSA NASAL."
+    },
+    {
+      "ID": 51,
+      "nombre": "N – ACETILCISTEÍNA",
+      "presentaciones": [
+        {
+          "dosificacion": "2g/100ml",
+          "forma": "Jarabe",
+          "volumenes": [
+            {
+              "cantidad": 100,
+              "dosis": "1 – 2 AÑOS = 2,5ML (50MG), 2 VECES POR DÍA. 2 – 5 AÑOS = 5ML (100MG), 2 VECES POR DÍA. 6 – 14 AÑOS = 5ML (100MG), 4 VECES POR DÍA Ó 10ML (200MG), 2 VECES POR DÍA."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 52,
+      "nombre": "NISTATINA",
+      "presentaciones": [
+        {
+          "dosificacion": "100.000UI/ml",
+          "forma": "Suspensión oral",
+          "volumenes": [
+            {
+              "cantidad": 60,
+              "dosis": "CANDIDIASIS OROFARÍNGEA: LACTANTE Y RNBP = 100.000UI (1ML), CADA 6HS. LACTANTES: 50 A 100.000UI (1ML), CADA 6HS. > 1 AÑO: 250.000 – 500.000UI (2,5 – 5ML), CADA 6 – 12HS. CANDIDIASIS INTESTINAL: LACTANTES: 100.000 – 300.000UI (1 – 3ML), CADA 6HS = 4 – 12ML/DÍA. NIÑOS: 250.000 – 500.000UI (2,5 – 5ML), CADA 6HS = 10 – 20ML/DÍA."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 53,
+      "nombre": "NITROFURANTOÍNA",
+      "presentaciones": [
+        {
+          "dosificacion": "0,5%",
+          "forma": "Suspensión oral",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "5 – 7MG/KG/DÍA, EN 4 TOMAS DIARIAS. POR PESO: 7 – 11KG = 2,5ML; 12 – 21KG = 5ML; 22 – 30KG = 7,5ML; 31 – 41KG = 10ML. CADA 6HS POR 7 DÍAS. 5ML = 25MG."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 54,
+      "nombre": "OMEPRAZOL",
+      "presentaciones": [
+        {
+          "dosificacion": "0,2% + BICARBONATO DE SODIO 16,8%",
+          "forma": "Polvo para suspensión oral",
+          "volumenes": [
+            {
+              "cantidad": 70,
+              "dosis": "> 1 AÑO = 1MG/KG/DÍA (0,7 – 3MG/KG/DÍA), 1 VEZ AL DÍA. LA SUSPENSIÓN CONTIENE 2MG/ML DE OMEPRAZOL."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 55,
+      "nombre": "ONDANSETRÓN",
+      "presentaciones": [
+        {
+          "dosificacion": "4mg/ 2ml y 8mg/4ml",
+          "forma": "Solución inyectable",
+          "volumenes": [
+            {
+              "cantidad": "1, 5, 10 y 20",
+              "dosis": "> 1 mes = 0,1mg/kg, máximo 4mg. Peso → 8 – 15kg = 2mg. 15 – 30kg = 4mg. > 30kg = 6 – 8mg. Por superficie corporal → 5mg/m²/dosis ó 0,15mg/kg/dosis, cada 8hs."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 56,
+      "nombre": "PARACETAMOL",
+      "presentaciones": [
+        {
+          "dosificacion": "2%",
+          "forma": "Solución oral",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "30 – 50MG/KG/DÍA. RNPT 28 – 32 SEMANAS = 10MG/KG/DOSIS CADA 8HS. RNPT 32 – 37 SEMANAS = 10 – 15MG/KG/DOSIS CADA 6 – 8HS. LACTANTES Y NIÑOS = 10MG/KG/DOSIS CADA 4 – 6 HORAS. DOSIS PRÁCTICA = 2 A 3 GOTAS/KG/DOSIS CADA 4 – 6 HORAS."
+            }
+          ]
+        },
+        {
+          "dosificacion": "0,1g/ml",
+          "forma": "Gotas por 20ml",
+          "volumenes": null
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 57,
+      "nombre": "PENICILINA G BENZATÍNICA",
+      "presentaciones": [
+        {
+          "dosificacion": "1.200.000UI y 2.400.000UI",
+          "forma": "Frasco-ampolla con droga y ampolla con solvente",
+          "volumenes": null
+        }
+      ],
+      "dosis": "LACTANTES Y NIÑOS < 27 KG: 300.000 A 600.000UI; > 27KG: 900.000UI, 1 DOSIS; > 30KG: 1.200.000UI."
+    },
+    {
+      "ID": 58,
+      "nombre": "PENICILINA V POTÁSICA (FENOXIMETILPENICILINA)",
+      "presentaciones": [
+        {
+          "dosificacion": "300.000UI/5ml",
+          "forma": "Suspensión oral",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "< 30KG = 50.000UI/KG/DÍA CADA 8HS POR 10 DÍAS. > 30KG = 500.000UI CADA 8HS POR 10 DÍAS Ó 750.000UI CADA 12HS POR 10 DÍAS. 1ML=60.000UI"
+            },
+            {
+              "cantidad": 180,
+              "dosis": "IDEM"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 59,
+      "nombre": "PERMETRINA",
+      "presentaciones": [
+        {
+          "dosificacion": "1%",
+          "forma": "Shampoo",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "AL 5% → > 2 MESES = LUEGO DE BAÑARSE, SECARSE BIEN. APLICAR SOBRE TODA LA PIEL, DESDE EL CUELLO HASTA LOS PIES, INCLUYENDO PALMAS Y PLANTAS. DEJAR ACTUAR POR 8 – 14HS, LUEGO REMOVER MEDIANTE LAVADO CON AGUA Y JABÓN. REALIZAR TRATAMIENTO LOS DÍAS 1, 5 Y 10."
+            }
+          ]
+        },
+        {
+          "dosificacion": "5%",
+          "forma": "Crema fluida",
+          "volumenes": [
+            {
+              "cantidad": 100,
+              "dosis": "IDEM"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 60,
+      "nombre": "PICOSULFATO DE SODIO",
+      "presentaciones": [
+        {
+          "dosificacion": "7,5mg/ml",
+          "forma": "Solución. Gotas",
+          "volumenes": [
+            {
+              "cantidad": 10,
+              "dosis": ">12 AÑOS = 3 A 6 GOTAS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 61,
+      "nombre": "POLIETILENGLICOL 3350",
+      "presentaciones": [
+        {
+          "dosificacion": "Sobres de 17g",
+          "forma": "Por 5 y 12",
+          "volumenes": null
+        }
+      ],
+      "dosis": "> 6 MESES = DISOLVER CADA SOBRE EN 125ML DE AGUA, 1 VEZ AL DÍA. 1–1,5 G/KG DISUELTOS EN 10ML/KG DE AGUA, 1 VEZ AL DÍA DURANTE 3 DÍAS."
+    },
+    {
+      "ID": 62,
+      "nombre": "SACCHAROMYCES BOULARDII",
+      "presentaciones": [
+        {
+          "dosificacion": "250mg",
+          "forma": "Por 10 sobres",
+          "volumenes": null
+        }
+      ],
+      "dosis": "DIARREAS → TRATAMIENTO DE ATAQUE = 1ER DÍA → 2 SOBRES ( 1 POR LA MAÑANA Y OTRO POR LA NOCHE). TRATAMIENTO DE MANTENIMIENTO → 1 SOBRE POR DÍA HASTA LA DESAPARICIÓN DE LOS SÍNTOMAS. DIARREA DEBIDA A ANTIBIÓTICOS → 1G ( 4 SOBRES) POR DÍA. DIARREA POR ALIMENTACIÓN POR SONDA → 2G ( 8 SOBRES) POR DÍA. PUEDE ADMINISTRARSE A LACTANTES, NIÑOS Y ADULTOS, SIENDO LA MISMA DOSIS. EL SOLVENTE NO PUEDE SER FRÍO NI CALIENTE."
+    },
+    {
+      "ID": 63,
+      "nombre": "SALBUTAMOL",
+      "presentaciones": [
+        {
+          "dosificacion": "100mcg/dosis",
+          "forma": "Aerosol para inhalación",
+          "volumenes": [
+            {
+              "cantidad": 250,
+              "dosis": "1 GOTA/KG/DOSIS → 10 GOTAS = 0,5ML = 2,5MG; 20 GOTAS = 1ML = 5MG → EN 3ML DE SF AL 0,9%, CADA 4 - 6HS. PUFF = 2 DISPAROS (200MCG), CADA 20MIN, REPETIR 2 VECES MÁS EN 1H (2 DISPAROS CADA 20MIN EN 1H, EN CRISIS ASMÁTICA AGUDA), LUEGO 2 DISPAROS CADA 4 – 6HS."
+            }
+          ]
+        },
+        {
+          "dosificacion": "0,5%",
+          "forma": "Gotas para nebulizar",
+          "volumenes": [
+            {
+              "cantidad": 10,
+              "dosis": "IDEM"
+            },
+            {
+              "cantidad": 20,
+              "dosis": "IDEM"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 64,
+      "nombre": "SALES DE REHIDRATACIÓN ORAL",
+      "presentaciones": [
+        {
+          "dosificacion": "Polvo para reconstituir",
+          "forma": "Por 3 sobres",
+          "volumenes": [
+            {
+              "cantidad": "27.9g cada",
+              "dosis": "PLAN A: < 1 AÑO = 50 – 100ML DESPUÉS DE CADA EVACUACIÓN; 1 A 10 AÑOS = 100 – 200ML DESPUÉS DE CADA EVACUACIÓN; > 10 AÑOS = LIBRE DEMANDA. PLAN B: 50 – 100ML CADA 4 A 6HS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 65,
+      "nombre": "SODIO PROPIONATO + ÓXIDO DE ZINC + UNDECILATO DE ZINC + ÁCIDO SALICÍLICO",
+      "presentaciones": [
+        {
+          "dosificacion": "No especificada",
+          "forma": "Polvo",
+          "volumenes": [
+            {
+              "cantidad": 50,
+              "dosis": "(Factor X)"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 66,
+      "nombre": "SULFADIAZINA DE PLATA + VITAMINA A + LIDOCAÍNA",
+      "presentaciones": [
+        {
+          "dosificacion": "1g / 248.000UI / 0,6g",
+          "forma": "Crema dérmica",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "EN > 2 MESES."
+            },
+            {
+              "cantidad": 100,
+              "dosis": "IDEM"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 67,
+      "nombre": "SUPOSITORIOS DE GLICERINA",
+      "presentaciones": [
+        {
+          "dosificacion": "Infantes",
+          "forma": "Caja por 12 supositorios",
+          "volumenes": null
+        }
+      ],
+      "dosis": "LACTANTES Y NIÑOS MAYORES: 1/2–1 SUPOSITORIO 1 VEZ AL DÍA DURANTE 3 DÍAS O HASTA QUE SE PRODUZCA LA DEFECACIÓN."
+    },
+    {
+      "ID": 68,
+      "nombre": "SINCERUM → CARBONATO DE SODIO + NEOMICINA + CETRIMIDA + ANTIPIRINA",
+      "presentaciones": [
+        {
+          "dosificacion": "No especificada",
+          "forma": "Gotas óticas",
+          "volumenes": [
+            {
+              "cantidad": 5,
+              "dosis": "3 GOTAS, 3 – 4 VECES POR DÍA, POR 3 DÍAS)."
+            },
+            {
+              "cantidad": 8,
+              "dosis": "IDEM"
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 69,
+      "nombre": "SIMETICONA",
+      "presentaciones": [
+        {
+          "dosificacion": "4g/100ml",
+          "forma": "Pediátrico – Gotas",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "> 6 AÑOS: 15 A 20 GOTAS, DESPUÉS DE LAS COMIDAS Y ANTES DE DORMIR, CON UN POCO DE LÍQUIDO. < 6 AÑOS Y LACTANTES: 10 A 15 GOTAS, DOS A TRES VECES POR DÍA EN LA MAMADERA, O DESPUÉS DE LAS COMIDAS RESPECTIVAMENTE."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 70,
+      "nombre": "TERBINAFINA",
+      "presentaciones": [
+        {
+          "dosificacion": "250mg",
+          "forma": "Comprimidos",
+          "volumenes": [
+            {
+              "cantidad": "14 – 28",
+              "dosis": "> 2 AÑOS → 10MG/KG/DÍA, MÁXIMO 250MG/DÍA POR 3 A 4 SEMANAS (TRITURAR EL COMPRIMIDO Y DARLO CON UN SEMISÓLIDO). REALIZAR HEPATOGRAMA PREVIO. > 40KG = 250MG/DÍA."
+            }
+          ]
+        },
+        {
+          "dosificacion": "1%",
+          "forma": "Crema",
+          "volumenes": [
+            {
+              "cantidad": "15 – 20g",
+              "dosis": "1 A 2 VECES POR DÍA 1 A 2 SEMANAS. INTERTRIGO: 1 VEZ AL DÍA EN PLIEGUES POR LA NOCHE, SE PUEDE CUBRIR CON GAS. TINEA PEDIS: 1 – 2 VECES AL DÍA, EN AMBOS PIES POR 1 SEMANA."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 71,
+      "nombre": "TIROTRICINA / BENZOCAÍNA",
+      "presentaciones": [
+        {
+          "dosificacion": "5g / 0,1g",
+          "forma": "Spray",
+          "volumenes": [
+            {
+              "cantidad": 30,
+              "dosis": "3 A 4 VECES POR DÍA."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 72,
+      "nombre": "TOBRAMICINA",
+      "presentaciones": [
+        {
+          "dosificacion": "0,3%",
+          "forma": "Solución oftálmica",
+          "volumenes": [
+            {
+              "cantidad": 5,
+              "dosis": "1 A 2 GOTAS CADA 6HS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 73,
+      "nombre": "TOBRAMICINA / DEXAMETASONA",
+      "presentaciones": [
+        {
+          "dosificacion": "0,3% / 0,1%",
+          "forma": "Gotas oftálmicas",
+          "volumenes": [
+            {
+              "cantidad": 5,
+              "dosis": "1 Ó 2 GOTAS CADA 4 – 6HS."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 74,
+      "nombre": "TRIMETOPRIMA / SULFAMETOXASOL",
+      "presentaciones": [
+        {
+          "dosificacion": "0,8% / 4%",
+          "forma": "Suspensión oral",
+          "volumenes": [
+            {
+              "cantidad": 120,
+              "dosis": "2 MESES A 1 AÑO → 2,5ML CADA 12HS; 2 – 5 AÑOS → 5ML CADA 12HS; 6 – 12 AÑOS → 10ML CADA 12HS; > 12 AÑOS → 20ML CADA 12HS. PESO = 8KG → 5ML; 16KG → 10ML; 24KG → 15ML; 32KG → 20ML; 40KG → 25ML; 48KG → 30ML; 64KG → 40ML."
+            }
+          ]
+        }
+      ],
+      "dosis": null
+    },
+    {
+      "ID": 75,
+      "nombre": "VASELINA",
+      "presentaciones": [
+        {
+          "dosificacion": "Líquida pura",
+          "forma": "Por 250ml",
+          "volumenes": null
+        }
+      ],
+      "dosis": "> 1 AÑO = 15 – 20ML/AÑO, DURANTE 3 DÍAS O HASTA QUE SE PRODUZCA LA DEFECACIÓN."
+    }
+  ]
+}
