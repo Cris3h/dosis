@@ -46,7 +46,7 @@ function fixPresentations (element) {
 
   return (
     <>
-      <div>
+      {/* <div>
         <p> prueba</p>
         <label>
           Choose the doses / elija la dosis
@@ -69,7 +69,7 @@ function fixPresentations (element) {
         </div>
         : undefined
         }
-      </div>
+      </div> */}
 
       <div
         style={{
