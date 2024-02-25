@@ -96,19 +96,17 @@ export const mebendazol = (type) => {
 
 //----------------------------------------------------------------------------------
 
-
 export const difenhidramina = (w, mg) => {
-  const constante = 3
+  const constante = 3;
 
-  return ((((w * constante) / 3) * 5) / mg)//mg = 12,5 always
+  return (((w * constante) / 3) * 5) / mg; //mg = 12,5 always
 };
 
 export const cetirizina = (age) => {
-  if(age <= 2) return 5;
-  if(age > 2 && age <= 6) return 10 // en total (en gotas) por día. Dosis maxima 2 veces por dia
-  return 20 // en total (en gotas) por día. Dosis maxima 2 veces por dia
+  if (age <= 2) return 5;
+  if (age > 2 && age <= 6) return 10; // en total (en gotas) por día. Dosis maxima 2 veces por dia
+  return 20; // en total (en gotas) por día. Dosis maxima 2 veces por dia
 };
-
 
 // export const diazepam = (mg, w) => {
 //   let ml;
@@ -125,21 +123,41 @@ export const cetirizina = (age) => {
 // export const midazolam = () => {};
 
 export const betametasona = (w) => {
-  return w // 3 x dia x 3 dias
+  return w; // 3 x dia x 3 dias
 };
 
 export const dexametasona = (w) => {
-  let constante = 0.3
-  let ml = 2
-  let mg = 8
-  return (((w * constante) * ml) / mg)//mg = 12,5 always
+  let constante = 0.3;
+  let ml = 2;
+  let mg = 8;
+  return (w * constante * ml) / mg; //mg = 12,5 always
 };
 
-export const metoclopramida = () => {
-  
+export const metoclopramida = (type, w) => {
+  if (type.toLowerCase() === "injectable") {
+    if (w <= 5) return "DO NOT USE THIS DRUG";
+    else if (w >= 5 && w <= 10) {
+      return 0.2;
+    } else if (w >= 10 && w <= 15) {
+      return 0.5;
+    } else if (w >= 15 && w <= 20) {
+      return 0.7;
+    } else if (w >= 20 && w <= 25) {
+      return 0.9;
+    } else if (w >= 25 && w <= 30) {
+      return 1;
+    } else if (w >= 30 && w <= 35) {
+      return 1.5;
+    }
+    return 2;
+  }
+  return w
 };
 
-export const dropdown = medicines.medicamentos.map((e) => {return e.nombre;});
+
+export const dropdown = medicines.medicamentos.map((e) => {
+  return e.nombre;
+});
 
 export const singleDrugFinder = (newDrug) => {
   let finder = medicines.medicamentos.find((e) => e.nombre === newDrug);
