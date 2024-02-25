@@ -4,14 +4,6 @@ import Amoxicillin from '@/components/Amoxicillin';
 
 export default function Home() {
 
-
-// const coso = medicines?.map((e) => {
-//    let elReturn = e.medicamentos
-//    return elReturn
-// })
-
-
-
   return (
     <main className={styles.main}>
       <div>

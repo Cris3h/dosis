@@ -94,7 +94,7 @@ function fixPresentations (element) {
             style={{ marginBottom: "5px" }}
           />
           <br />
-          <label style={{ marginBottom: "5px" }}>ML: </label>
+          <label style={{ marginBottom: "5px" }}>concentracion: </label>
           <select
             name="ml"
             id="amoxicillin"

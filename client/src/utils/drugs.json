@@ -1,0 +1,26 @@
+{
+  "antibioticos": [
+    "amoxicilina",
+    "amoxicilina con acido clabulanico",
+    "azitromicina",
+    "trimetoprima sulfametoxazol",
+    "penicilina V"
+  ],
+  "antitermicos": [
+    "paracetamol",
+    "ibuprofeno",
+    "dipirona inyectable",
+    "dipirona jarabe"
+  ],
+  "antiparasitarios": ["mebendazol"],
+  "antihistaminicos": ["difenhidramina", "cetirizina diclorhidrato"],
+  "anticonvulsionantes": [
+    "diazepam",
+    "loracepam",
+    "levetiracetam",
+    "valproato sodico",
+    "fenitoina",
+    "midazolam"
+  ],
+  "corticoides": ["betametasona", "dexametasona", "hidrocortisona"]
+}
