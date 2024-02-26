@@ -9,20 +9,20 @@ import styles from "./page.module.css";
 import Amoxicillin from "@/components/Amoxicillin";
 
 export default function Home() {
-  const [currentViewIndex, setCurrentViewIndex] = useState(0);
-  const viewsRefs = [
-    useRef(null), // Referencia para la primera vista
-    useRef(null), // Referencia para la segunda vista
-    // Agregar más referencias para cada vista adicional aquí si es necesario
-  ];
+  // const [currentViewIndex, setCurrentViewIndex] = useState(0);
+  // const viewsRefs = [
+  //   useRef(null), // Referencia para la primera vista
+  //   useRef(null), // Referencia para la segunda vista
+  //   // Agregar más referencias para cada vista adicional aquí si es necesario
+  // ];
 
-  const handleScrollToNextView = () => {
-    const nextIndex = currentViewIndex + 1;
-    if (nextIndex < viewsRefs.length) {
-      viewsRefs[nextIndex].current.scrollIntoView({ behavior: 'smooth' });
-      setCurrentViewIndex(nextIndex);
-    }
-  };
+  // const handleScrollToNextView = () => {
+  //   const nextIndex = currentViewIndex + 1;
+  //   if (nextIndex < viewsRefs.length) {
+  //     viewsRefs[nextIndex].current.scrollIntoView({ behavior: 'smooth' });
+  //     setCurrentViewIndex(nextIndex);
+  //   }
+  // };
 
   return (
     <div>
@@ -45,8 +45,8 @@ export default function Home() {
         {/* </section>
       ))} */}
 
-      <div style={{height:'1500px', display:'flex' ,justifyContent:'flex-end', alignItems:'flex-end'}}>
-        askndajklsd{}
+      <div style={{height:'', display:'flex' ,justifyContent:'flex-end', alignItems:'flex-end'}}>
+        askndajklsd
       </div>
     </div>
   );
