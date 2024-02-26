@@ -1,26 +1,29 @@
-{
-  "antibioticos": [
-    "amoxicilina",
-    "amoxicilina con acido clabulanico",
-    "azitromicina",
-    "trimetoprima sulfametoxazol",
-    "penicilina V"
-  ],
-  "antitermicos": [
-    "paracetamol",
-    "ibuprofeno",
-    "dipirona inyectable",
-    "dipirona jarabe"
-  ],
-  "antiparasitarios": ["mebendazol"],
-  "antihistaminicos": ["difenhidramina", "cetirizina diclorhidrato"],
-  "anticonvulsionantes": [
-    "diazepam",
-    "loracepam",
-    "levetiracetam",
-    "valproato sodico",
-    "fenitoina",
-    "midazolam"
-  ],
-  "corticoides": ["betametasona", "dexametasona", "hidrocortisona"]
-}
+[
+  {
+    "antibiotics": [
+      "amoxicillin",
+      "amoxicillin with clavulanic acid",
+      "azithromycin",
+      "trimethoprim-sulfamethoxazole",
+      "penicillin V"
+    ],
+    "antipyretics": [
+      "paracetamol",
+      "ibuprofen",
+      "injectable dipyrone",
+      "dipyrone syrup"
+    ],
+    "antiparasitics": ["mebendazole"],
+    "antihistamines": ["diphenhydramine", "cetirizine hydrochloride"],
+    "anticonvulsants": [
+      "diazepam",
+      "lorazepam",
+      "levetiracetam",
+      "sodium valproate",
+      "phenytoin",
+      "midazolam"
+    ],
+    "corticosteroids": ["betamethasone", "dexamethasone", "hydrocortisone"],
+    "antiemetics": ["metoclopramide"]
+  }
+]

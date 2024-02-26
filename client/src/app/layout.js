@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
+import { Gloria_Hallelujah } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
-const inter = Inter({ subsets: ["latin"] });
-
-
+const gloriaHallelujah = Gloria_Hallelujah({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const metadata = {
   title: "Dr Dosage",
@@ -15,11 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link 
-        rel="icon" 
-        href="/favicon.ico" 
-        sizes="any" 
-        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="icon"
           href="/icon?<generated>"
@@ -33,7 +29,7 @@ export default function RootLayout({ children }) {
           sizes="<generated>"
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={gloriaHallelujah.className}>{children}</body>
     </html>
   );
 }
