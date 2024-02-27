@@ -4,6 +4,7 @@ import Image from "next/image";
 import arrowDown from "../../public/images/arrowDown.svg";
 import styles from "./page.module.css";
 import Select from "@/components/Select";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -36,6 +37,7 @@ export default function Home() {
       <div id="select" className={styles.views}>
         <Select />
       </div>
+      <Footer />
     </div>
   );
 }
