@@ -10,7 +10,10 @@ const Footer = () => {
     }
   return (
     <div className={styles.footerContainer}>
-        <Link href={'https://cafecito.app/cris3h'}> 
+        <Link href={'https://cafecito.app/cris3h'}
+        target="_blank"
+        rel="noopener noreferrer"
+        > 
         <Image src={cafecito} height={200} width={200} className={styles.coffee}/>
         </Link>
       <p>all rights reserved</p>
