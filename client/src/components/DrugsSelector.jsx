@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "@/styles/drugs.module.css";
 import drugs from "@/utils/drugs.json";
+import DataBox from "./DataBox";
 
 const Drugs = ({ medList }) => {
   const [singleMed, setSingleMed] = useState(undefined);
@@ -12,7 +13,6 @@ const Drugs = ({ medList }) => {
       : undefined;
   };
 
-  console.log(singleMed)
   return (
     <>
       <label className={styles.label}>2nd step: </label>
@@ -24,9 +24,9 @@ const Drugs = ({ medList }) => {
           </option>
         ))}
       </select>
-      {/* {
-        singleMed 
-      } */}
+      {
+        singleMed && <DataBox medicine={singleMed}/>
+      }
     </>
   );
 };

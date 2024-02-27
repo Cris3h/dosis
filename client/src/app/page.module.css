@@ -7,7 +7,7 @@
 .sectionStart{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   margin: 0 15px;
   text-align: center;
@@ -20,21 +20,23 @@
 
 .arrowDownContainer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 350px;
 }
 
-/* .arrowDownContainer img{
+.arrowDownContainer img{
 
-} */
+}
 
 .views{
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  height: 100vh;
+  padding-top: 150px;
 }
 
 /* Enable hover only on non-touch devices */
