@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "@/styles/databox.module.css";
 import { functionFinder } from "@/utils";
+import { componentChooser } from "@/utils/componentChoose";
 
 const DataBox = ({ medGroup, medicine }) => {
   const [singleMedicine, setSingleMedicine] = useState(undefined);
@@ -34,13 +35,14 @@ const DataBox = ({ medGroup, medicine }) => {
     state && state !== singleMedicine ? setSingleMedicine(state) : undefined;
   }, []);
 
+
   return (
     <div className={styles.boxContainer}>
-      <p> we're working for you! </p>
+      {/* <p> we're working for you! </p>
       <br />
       <p>This feature will be available soon</p>
       <br />
-      <p>Thank you for ur patience {'<3'}</p>
+      <p>Thank you for ur patience {"<3"}</p> */}
       {/* <div style={{ display: "flex", flexDirection: "column" }}>
         <label> insert data: </label>
         <input name="first" onChange={(e) => handleFirstInput(e)} />
@@ -51,6 +53,8 @@ const DataBox = ({ medGroup, medicine }) => {
         </button>
         <p>{result}</p>
       </div> */}
+
+      {medGroup && medicine ? componentChooser(medicine) : undefined}
     </div>
   );
 };
