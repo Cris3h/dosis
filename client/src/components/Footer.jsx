@@ -6,13 +6,13 @@ import Link from "next/link";
 
 const Footer = () => {
     const anchor = ()=>{
-
+        
     }
   return (
     <div className={styles.footerContainer}>
-        {/* <Link href={'https://cafecito.app/cris3h'}>  */}
+        <Link href={'https://cafecito.app/cris3h'}> 
         <Image src={cafecito} height={200} width={200} className={styles.coffee}/>
-        {/* </Link> */}
+        </Link>
       <p>all rights reserved</p>
     </div>
   );

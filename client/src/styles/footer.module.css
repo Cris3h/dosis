@@ -1,25 +1,25 @@
-.footerContainer{
-    display: grid;
-    grid-template-rows: 1fr;
-    align-items: center;
-    border-top: 1px solid #ADB;
+.footerContainer {
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  border-top: 1px solid #adb;
 }
 
-.footerContainer a{
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
+.footerContainer a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  grid-row: 1/2;
 }
 
-.coffee{
-    height: 35px;
-    width: 35px;
-    margin-left: 25px;
-    grid-row: 1/2;
+.coffee {
+  height: 35px;
+  width: 35px;
+  margin-left: 25px;
 }
 
-.footerContainer p{
-    grid-row: 1/2;
-    margin-right: 25px;
-    justify-self: end;
+.footerContainer p {
+  grid-row: 1/2;
+  margin-right: 25px;
+  justify-self: end;
 }
