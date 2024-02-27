@@ -25,7 +25,7 @@ const Drugs = ({ medList }) => {
         ))}
       </select>
       {
-        singleMed && <DataBox medicine={singleMed}/>
+        singleMed && <DataBox medGroup={medList} medicine={singleMed}/>
       }
     </>
   );
