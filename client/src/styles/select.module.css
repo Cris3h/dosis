@@ -1,0 +1,15 @@
+.label{
+    font-size: xx-large;
+    margin-right: 15px;
+}
+.select{
+    height: 50px;
+    font-size: large;
+    border-radius: 8px;
+    background-color: #d5dade;
+}
+
+.option{
+    width: 207px;
+
+}

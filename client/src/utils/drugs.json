@@ -1,29 +1,61 @@
-[
-  {
-    "antibiotics": [
-      "amoxicillin",
-      "amoxicillin with clavulanic acid",
-      "azithromycin",
-      "trimethoprim-sulfamethoxazole",
-      "penicillin V"
-    ],
-    "antipyretics": [
-      "paracetamol",
-      "ibuprofen",
-      "injectable dipyrone",
-      "dipyrone syrup"
-    ],
-    "antiparasitics": ["mebendazole"],
-    "antihistamines": ["diphenhydramine", "cetirizine hydrochloride"],
-    "anticonvulsants": [
-      "diazepam",
-      "lorazepam",
-      "levetiracetam",
-      "sodium valproate",
-      "phenytoin",
-      "midazolam"
-    ],
-    "corticosteroids": ["betamethasone", "dexamethasone", "hydrocortisone"],
-    "antiemetics": ["metoclopramide"]
-  }
-]
+{
+  "groups": [
+    {
+      "name": "antibiotics",
+      "drugs": [
+        "amoxicillin",
+        "amoxicillin with clavulanic acid",
+        "azithromycin",
+        "trimethoprim-sulfamethoxazole",
+        "penicillin V"
+      ]
+    },
+    {
+      "name": "antipyretics",
+      "drugs": [
+        "paracetamol",
+        "ibuprofen",
+        "injectable dipyrone",
+        "dipyrone syrup"
+      ]
+    },
+    {
+      "name": "antiparasitics",
+      "drugs": [
+        "mebendazole"
+      ]
+    },
+    {
+      "name": "antihistamines",
+      "drugs": [
+        "diphenhydramine",
+        "cetirizine hydrochloride"
+      ]
+    },
+    {
+      "name": "anticonvulsants",
+      "drugs": [
+        "diazepam",
+        "lorazepam",
+        "levetiracetam",
+        "sodium valproate",
+        "phenytoin",
+        "midazolam"
+      ]
+    },
+    {
+      "name": "corticosteroids",
+      "drugs": [
+        "betamethasone",
+        "dexamethasone",
+        "hydrocortisone"
+      ]
+    },
+    {
+      "name": "antiemetics",
+      "drugs": [
+        "metoclopramide"
+      ]
+    }
+  ]
+}

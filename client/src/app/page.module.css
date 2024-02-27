@@ -1,3 +1,9 @@
+.headerContainer{
+  z-index: 1;
+  position: sticky; 
+  top: 0;
+}
+
 .sectionStart{
   display: flex;
   flex-direction: column;
@@ -5,6 +11,7 @@
   align-items: center;
   margin: 0 15px;
   text-align: center;
+  height: 100vh;
 }
 
 .sectionStart p{
@@ -18,8 +25,16 @@
   height: 550px;
 }
 
-.arrowDownContainer img{
+/* .arrowDownContainer img{
 
+} */
+
+.views{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 /* Enable hover only on non-touch devices */
