@@ -2,7 +2,11 @@ import React from 'react'
 
 const Diazepam = () => {
   return (
-    <div>Diazepam</div>
+    <div>
+    <p>This drug is not available yet!</p>
+    <br />
+    <p>It will be available soon tho {'(:'}</p>
+  </div>
   )
 }
 

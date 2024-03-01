@@ -14,7 +14,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
         > 
-        <Image src={cafecito} height={200} width={200} className={styles.coffee}/>
+        <Image src={cafecito} alt="icono cafecito" height={200} width={200} className={styles.coffee}/>
         </Link>
       <p>all rights reserved</p>
     </div>

@@ -18,6 +18,7 @@ import Betamethasone from "@/components/componentsGroup/Betamethasone";
 import Dexamethasone from "@/components/componentsGroup/Dexamethasone";
 import Hydrocortisone from "@/components/componentsGroup/Hydrocortisone";
 import Metoclopramide from "@/components/componentsGroup/Metoclopramide";
+import Azithromycin from "@/components/componentsGroup/Azithromycin";
 
 
 
@@ -30,8 +31,7 @@ export const componentChooser = (medicine) => {
     if (medicine === "penicillin V") return <PenicillinV />;
     if (medicine === "paracetamol") return <Paracetamol />;
     if (medicine === "ibuprofen") return <Ibuprofen />;
-    if (medicine === "injectable dipyrone" || medicine === "dipyrone syrup")
-      return <Dipyrone />;
+    if (medicine === "dipyrone") return <Dipyrone />;
     if (medicine === "mebendazole") return <Mebendazole />;
     if (medicine === "diphenhydramine") return <Diphenhydramine />;
     if (medicine === "cetirizine hydrochloride") return <Cetirizine />;

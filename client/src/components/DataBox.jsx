@@ -29,12 +29,17 @@ const DataBox = ({ medGroup, medicine }) => {
     setSecondInput(input);
   };
 
-  useEffect(() => {
-    // console.log("corre el useEffect");
-    const state = functionFinder(medGroup, medicine);
-    state && state !== singleMedicine ? setSingleMedicine(state) : undefined;
-  }, []);
+  // useEffect(() => {
+  //   // console.log("corre el useEffect");
+  //   const state = functionFinder(medGroup, medicine);
+  //   state && state !== singleMedicine ? setSingleMedicine(state) : undefined;
+  // }, []);
 
+  
+   // ToDo: el estado de singleMedicine ya no pertenece a este componente. Va a ser
+   // una prop de cada componente en si, lo mismo aplica a los estados de los inputs.
+   // al modularizar se pierde esta automatizacion de buscar en un solo componente la funcion 
+   // que se debe aplicar para hacer la tarea correctamente.
 
   return (
     <div className={styles.boxContainer}>
@@ -53,7 +58,6 @@ const DataBox = ({ medGroup, medicine }) => {
         </button>
         <p>{result}</p>
       </div> */}
-
       {medGroup && medicine ? componentChooser(medicine) : undefined}
     </div>
   );
