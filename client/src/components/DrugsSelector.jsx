@@ -14,9 +14,6 @@ const Drugs = ({ medList }) => {
   };
 
 
-  useEffect(() => {
-    console.log('Second Selector')
-  }, [singleMed])
   return (
     <>
       <label className={styles.label}>2nd step: </label>

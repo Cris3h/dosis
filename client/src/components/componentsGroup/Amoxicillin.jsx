@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { amoxicillin } from "@/utils";
 
 import styles from "@/styles/shared.module.css";
@@ -30,12 +30,12 @@ const Amoxicillin = () => {
   return (
     <div className={styles.boxContainer}>
       <section>
-        <label>weight: </label>
+        <label>weight (kg's): </label>
         <input type="number" onChange={(e)=> handleInput(e)} />
       </section>
 
       <section>
-      <label>mg: </label>
+      <label>select mg: </label>
       <select name="mg" onChange={(e) => handleSelect(e)}>
         <option value="250">250</option>
         <option value="500">500</option>

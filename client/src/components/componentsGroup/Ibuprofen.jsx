@@ -27,12 +27,12 @@ const Ibuprofen = () => {
   return (
     <div className={styles.boxContainer}>
     <section>
-      <label>weight: </label>
+      <label>weight (kg's): </label>
       <input type="number" onChange={(e)=> handleInput(e)} />
     </section>
 
     <section>
-      <label>mg: </label>
+    <label>select mg: </label>
       <select name="mg" onChange={(e) => handleSelect(e)}>
         <option value="250">250</option>
         <option value="500">500</option>

@@ -14,9 +14,6 @@ const Select = () => {
       : undefined;
   };
 
-  useEffect(()=> {
-    console.log('First Select')
-  },[drugSelected])
 
   return (
     <>

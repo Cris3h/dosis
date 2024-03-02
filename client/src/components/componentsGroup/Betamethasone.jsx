@@ -22,7 +22,7 @@ const Betamethasone = () => {
   return (
     <div className={styles.boxContainer}>
       <section>
-        <label>age: </label>
+        <label>weight (kg's): </label>
         <input type="number" onChange={(e)=> handleInput(e)} />
       </section>
       <section>

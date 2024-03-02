@@ -23,7 +23,7 @@ const Dexamethasone = () => {
   return (
     <div className={styles.boxContainer}>
       <section>
-        <label>weight: </label>
+        <label>weight (kg's): </label>
         <input type="number" onChange={(e)=> handleInput(e)} />
       </section>
       <section>

@@ -85,11 +85,11 @@ function fixPresentations (element) {
         <div style={{ flexDirection: "row" }}>
           <aside style={{ marginBottom: "5px" }}> Amoxicillin: </aside>
           <label style={{ marginBottom: "5px" }}>
-            Insert weight / Ingrese peso{" "}
+            Insert weight (kg's) / Ingrese peso{" "}
           </label>
           <input
             type="number"
-            name="weight"
+            name="weight (kg's)"
             onChange={(e) => handleInput(e)}
             style={{ marginBottom: "5px" }}
           />
