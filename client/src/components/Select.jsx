@@ -21,7 +21,7 @@ const Select = () => {
   return (
     <>
       <label className={styles.label}> 1st step: </label>
-      <select name="first" className={styles.select} onClick={handleSelect}>
+      <select name="first" className={styles.select} onChange={handleSelect}>
         <option style={{ display: "none" }}>Choose the drug group</option>
         {drugs.groups.map((opt, index) => (
           <option key={index} value={opt.name} className={styles.option}>

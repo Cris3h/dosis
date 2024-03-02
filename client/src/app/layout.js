@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           type="image/<generated>"
           sizes="<generated>"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={gloriaHallelujah.className}>{children}</body>
     </html>
