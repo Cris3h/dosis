@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/select.module.css";
 import Drugs from "./DrugsSelector";
 import drugs from "@/utils/drugs.json";
@@ -13,6 +13,10 @@ const Select = () => {
       ? setDrugSelected(event.target.value)
       : undefined;
   };
+
+  useEffect(()=> {
+    console.log('First Select')
+  },[drugSelected])
 
   return (
     <>

@@ -35,6 +35,10 @@ const DataBox = ({ medGroup, medicine }) => {
   //   state && state !== singleMedicine ? setSingleMedicine(state) : undefined;
   // }, []);
 
+  useEffect(()=>{
+    console.log('databox')
+  }, [medGroup, medicine])
+
   
    // ToDo: el estado de singleMedicine ya no pertenece a este componente. Va a ser
    // una prop de cada componente en si, lo mismo aplica a los estados de los inputs.
