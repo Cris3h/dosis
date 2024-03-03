@@ -4,6 +4,7 @@ import styles from '@/styles/shared.module.css';
 
 const Diphenhydramine = () => {
   const [input, setInput] = useState(undefined);
+  const [option, setOption] = useState(undefined);
   const [diphenhydramineState, setDiphenhydramineState] = useState();
 
 
@@ -13,9 +14,14 @@ const Diphenhydramine = () => {
     : setInput(undefined)
   };
 
+  const handleSelect = (event) => {
+    event?.target.value && event.target.value !== undefined
+    ? setOption(event.target.value)
+    : setOption(undefined)
+  }
 
   const handleSubmit = ()=>{
-    const response = diphenhydramine(input)
+    const response = diphenhydramine(input, option)
     const newState = response.toFixed(2)
     setDiphenhydramineState(newState)
   }
@@ -27,10 +33,18 @@ const Diphenhydramine = () => {
         <input type="number" onChange={(e)=> handleInput(e)} />
       </section>
       <section>
-        <button type="submit" onClick={() => handleSubmit()}>calculate</button>
+      <label>select presentation: </label>
+      <select name="type" onChange={(e) => handleSelect(e)} defaultValue=''>
+      <option value='' disabled>form</option>
+        <option value="injectable">injectable</option>
+        <option value="syrup">syrup</option>
+      </select>
       </section>
-      <p>presentation: 12,5mg</p>
-      <p>each dose: {diphenhydramineState ? diphenhydramineState : null}ml</p>
+      <section>
+        <button type="submit" onClick={() => handleSubmit()}>send</button>
+      </section>
+      <p>presentation: 5ml, 12,5mg</p>
+      <p>each dose: {diphenhydramineState ? diphenhydramineState : null} ml / 8hrs</p>
     </div>
   );
 }

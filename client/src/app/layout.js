@@ -1,10 +1,23 @@
 import { Gloria_Hallelujah } from "next/font/google";
+import { Indie_Flower } from "next/font/google";
+import { Patrick_Hand } from "next/font/google";
 import "./globals.css";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
   weight: "400",
 });
+
+const IndieFlower = Indie_Flower({
+  subsets: ['latin'],
+  weight: '400'
+})
+
+const PatricHand = Patrick_Hand({
+  subsets: ['latin'],
+  weight:'400'
+})
+
 
 export const metadata = {
   title: "Dr Dosage",
@@ -30,7 +43,11 @@ export default function RootLayout({ children }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={gloriaHallelujah.className}>{children}</body>
+      {/* <body className={gloriaHallelujah.className}>{children}</body> */}
+      {/* <body className={IndieFlower.className}>{children}</body> */}
+      <body className={PatricHand.className}>{children}</body>
+
+
     </html>
   );
 }

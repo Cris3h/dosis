@@ -33,7 +33,8 @@ const Dypirone = () => {
 
     <section>
       <label>type of: </label>
-      <select name="mg" onChange={(e) => handleSelect(e)}>
+      <select name="mg" onChange={(e) => handleSelect(e)} defaultValue=''>
+      <option value='' disabled>form</option>
         <option value="injectable">injectable</option>
         <option value="syrup">syrup</option>
       </select>
@@ -41,7 +42,7 @@ const Dypirone = () => {
     <section>
       <button type="submit" onClick={() => handleSubmit()}>calculate</button>
     </section>
-    <p>each dose: {dipyroneState ? dipyroneState : null} ml</p>
+    <p>each dose: {dipyroneState ? dipyroneState : ''} ml / 8hrs</p>
   </div>
   )
 }

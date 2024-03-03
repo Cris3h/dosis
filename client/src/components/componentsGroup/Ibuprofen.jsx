@@ -33,15 +33,16 @@ const Ibuprofen = () => {
 
     <section>
     <label>select mg: </label>
-      <select name="mg" onChange={(e) => handleSelect(e)}>
-        <option value="250">250</option>
-        <option value="500">500</option>
+      <select name="mg" onChange={(e) => handleSelect(e)} defaultValue=''>
+        <option value='' disabled>presentation</option>
+        <option value="2">2%</option>
+        <option value="4">4%</option>
       </select>
       </section>
     <section>
       <button type="submit" onClick={() => handleSubmit()}>calculate</button>
     </section>
-    <p>each dose: {ibuprofenState ? ibuprofenState : null} ml</p>
+    <p>each dose: {ibuprofenState ? ibuprofenState : null} ml / 6hrs or 8hrs</p>
   </div>
   )
 }

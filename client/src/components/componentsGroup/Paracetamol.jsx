@@ -29,7 +29,7 @@ const Paracetamol = () => {
     <section>
       <button type="submit" onClick={() => handleSubmit()}>calculate</button>
     </section>
-    <p>each dose: {paracetamolState ? paracetamolState : null} ml</p>
+    <p>each dose: {paracetamolState ? paracetamolState : null} drops / 6hrs or 8hrs</p>
   </div>
   )
 }

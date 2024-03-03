@@ -30,7 +30,7 @@ const PenicillinV = () => {
     <section>
       <button type="submit" onClick={() => handleSubmit()}>calculate</button>
     </section>
-    <p>each dose: {penicillinVState ? penicillinVState : null}ml</p>
+    <p>each dose: {penicillinVState ? penicillinVState : ''} ml / 12hrs</p>
   </div>
   )
 }

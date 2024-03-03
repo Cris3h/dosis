@@ -20,8 +20,9 @@ const Mebendazole = () => {
   return (
     <div className={styles.boxContainer}>
     <section>
-      <label>choose bacteria: </label>
-      <select name="type" onChange={(e) => handleSelect(e)}>
+      <label>choose parasites: </label>
+      <select name="type" onChange={(e) => handleSelect(e)} defaultValue=''>
+      <option value="" disabled></option>
         <option value="oxiuros">oxiuros</option>
         <option value="ascharis">Ascharis</option>
         <option value="trichiurus">Trichiurus</option>
@@ -30,9 +31,11 @@ const Mebendazole = () => {
       </section>
 
       <section>
-      <button type="submit" onClick={() => handleSubmit()}>calculate</button>
+      <button type="submit" onClick={() => handleSubmit()}>send</button>
     </section>
+    <section>
     <p>each dose: {mebendazoleState ? mebendazoleState : null}</p>
+    </section>
   </div>
   )
 }

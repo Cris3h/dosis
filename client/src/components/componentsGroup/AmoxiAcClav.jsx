@@ -35,16 +35,17 @@ const AmoxiAcClav = () => {
       </section>
 
       <section>
-      <label>select mg: </label>
-      <select name="mg" onChange={(e) => handleSelect(e)}>
-        <option value="250">250</option>
-        <option value="500">500</option>
+      <label>select presentation: </label>
+      <select name="mg" onChange={(e) => handleSelect(e)} defaultValue=''>
+      <option value='' disabled>presentation</option>
+        <option value="400">5ml: 400mg</option>
+        <option value="600">5ml: 600mg</option>
       </select>
       </section>
       <section>
         <button type="submit" onClick={() => handleSubmit()}>calculate</button>
       </section>
-      <p>each dose: {aacState ? aacState : null}ml</p>
+      <p>each dose: {aacState ? aacState : ''} ml / 8hrs</p>
     </div>
   );
 }

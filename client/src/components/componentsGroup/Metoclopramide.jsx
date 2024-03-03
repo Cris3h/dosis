@@ -24,31 +24,32 @@ const Metoclopramide = () => {
 
 
   return (
-  //   <div className={styles.boxContainer}>
-  //   <section>
-  //     <label>weight (kg's): </label>
-  //     <input type="number" onChange={(e)=> handleInput(e)} />
-  //   </section>
+    <div className={styles.boxContainer}>
+    <section>
+      <label>weight (kg's): </label>
+      <input type="number" onChange={(e)=> handleInput(e)} />
+    </section>
 
-  //   <section>
-  //     <label>presentation: </label>
-  //     <select name="mg" onChange={(e) => handleSelect(e)}>
-  //       <option value="injectable">injectable</option>
-  //       <option value="drops">drops</option>
-  //     </select>
-  //     </section>
-  //   <section>
-  //     <button type="submit" onClick={() => handleSubmit()}>calculate</button>
-  //   </section>
-  //   <p>each dose: {metoclopramideState ? metoclopramideState : null} ml</p>
-  // </div>
+    <section>
+      <label>presentation: </label>
+      <select name="mg" onChange={(e) => handleSelect(e)} defaultValue=''>
+        <option value="" disabled> form </option>
+        <option value="injectable">injectable</option>
+        <option value="drops">drops</option>
+      </select>
+      </section>
+    <section>
+      <button type="submit" onClick={() => handleSubmit()}>calculate</button>
+    </section>
+    <p>each dose: {metoclopramideState ? metoclopramideState : ''} / 8hrs</p>
+  </div>
 
 
-  <div>
-  <p>This drug is not available yet!</p>
-  <br />
-  <p>It will be available soon tho {'(:'}</p>
-</div>
+//   <div>
+//   <p>This drug is not available yet!</p>
+//   <br />
+//   <p>It will be available soon tho {'(:'}</p>
+// </div>
   )
 }
 

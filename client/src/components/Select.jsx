@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "@/styles/select.module.css";
 import Drugs from "./DrugsSelector";
 import drugs from "@/utils/drugs.json";
@@ -18,8 +18,8 @@ const Select = () => {
   return (
     <>
       <label className={styles.label}> 1st step: </label>
-      <select name="first" className={styles.select} onChange={handleSelect}>
-        <option style={{ display: "none" }}>Choose the drug group</option>
+      <select name="first" className={styles.select} onChange={handleSelect} defaultValue=''>
+        <option value='' disabled>Choose the drug group</option>
         {drugs.groups.map((opt, index) => (
           <option key={index} value={opt.name} className={styles.option}>
             {opt.name}

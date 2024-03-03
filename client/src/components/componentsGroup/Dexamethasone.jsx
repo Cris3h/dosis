@@ -29,7 +29,7 @@ const Dexamethasone = () => {
       <section>
         <button type="submit" onClick={() => handleSubmit()}>calculate</button>
       </section>
-      <p>each dose: {dexamethasoneState ? dexamethasoneState : null}ml</p>
+      <p>each dose (injectable): {dexamethasoneState ? dexamethasoneState : null} ml / 12hrs</p>
     </div>
   );
 }

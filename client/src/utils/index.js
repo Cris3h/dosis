@@ -22,6 +22,11 @@ export const azithromycin = (w) => {
   return (((w * immutable) / 3) * 5) / 200;
 };
 
+export const tms = (w) => {
+ const immutable = 12;
+  return (((w * immutable) / 2) * 5) / 240
+}
+
 export const penicillinV = (w) => {
   //ui: 60000 === 1ml
   if (w < 30) {
@@ -33,9 +38,8 @@ export const penicillinV = (w) => {
   }
 };
 
-
 export const paracetamol = (w) => {
-  return w * 2; // ? 
+  return w * 2; // ?
 };
 
 export const ibuprofen = (w, percentage) => {
@@ -69,59 +73,65 @@ export const mebendazole = (type) => {
   let unique = "oxiuros";
   //let group = ['ascharis', 'trichiurus', 'tenias']
   return type.toLowerCase() === unique
-  ? "Administer 2.5 ml as a single dose."
-  : "Administer 2.5 ml every 12 hours for 3 days, then repeat the treatment after 15 days from the last dose.";
-}
+    ? "Administer 2.5 ml as a single dose. Repeat 15 days after the last dose."
+    : "Administer 2.5 ml every 12 hrs for 3 days, then repeat after 15 days from last dose.";
+};
 
-export const diphenhydramine = (w) => {
+export const diphenhydramine = (w, type) => {
   // const constante = 3;
   //(((w * constante) / 3) * 5) / 12.5  //mg = 12,5 always
-  return (w  * 5) / 12.5 ; 
-}
+  if (type.toLowerCase() === "injectable") {
+    return (5 * w) / 10 / 3;
+  } else {
+    return (5 * w) / 12.5;
+  }
+};
 
 export const cetirizine = (age) => {
   if (age <= 2) return "Five drops, once a day";
-  if (age > 2 && age <= 6) return "2,5mg: Ten drops a day (one or two times each day) - 5mg: Ten drops, one time per day"; // en total (en gotas) por día. Dosis maxima 2 veces por dia
-  return '20 drops in total. Max dosis: twice a day'; // en total (en gotas) por día. Dosis maxima 2 veces por dia
-}
+  if (age > 2 && age <= 6){
+    return "2,5mg: Ten drops a day (one or two times each day) - 5mg: Ten drops, one time per day - max dose: twice a day"
+     // en total (en gotas) por día. Dosis maxima 2 veces por dia
+    }
+  return "20 drops in total. Max dosis: twice a day"; // en total (en gotas) por día. Dosis maxima 2 veces por dia
+};
 
 export const betamethasone = (w) => {
   return w; // 3 x dia x 3 dias
-}
+};
 
 export const dexamethasone = (w) => {
   let constante = 0.3;
   let ml = 2;
   let mg = 8;
-  return (w * constante * ml) / mg; 
-}
+  return (w * constante * ml) / mg;
+};
 
 //---------------------------------------------------
 export const hydrocortisone = () => {
   return null;
-}
+};
 
 export const metoclopramide = (w, type) => {
   if (type === "injectable") {
     if (w <= 5) return "DO NOT USE THIS DRUG";
     else if (w >= 5 && w <= 10) {
-      return 0.2;
+      return "0.2 ml"; //ml
     } else if (w >= 10 && w <= 15) {
-      return 0.5;
+      return "0.5 ml";
     } else if (w >= 15 && w <= 20) {
-      return 0.7;
+      return "0.7 ml";
     } else if (w >= 20 && w <= 25) {
-      return 0.9;
+      return "0.9 ml";
     } else if (w >= 25 && w <= 30) {
-      return 1;
+      return "1 ml";
     } else if (w >= 30 && w <= 35) {
-      return 1.5;
+      return "1.5 ml";
     }
-    return 2;
+    return "2 ml";
   }
-  return w;
-}
-
+  return `${w} drops`; //1 drop x kg
+};
 
 // export const antiparasiticsFinder = (string) => {
 //   const antiparasitics = [
@@ -233,7 +243,6 @@ export const metoclopramide = (w, type) => {
 
 //   return antipyretics.find((obj) => obj.name === string);
 // };
-
 
 // export const antihistaminesFinder = (string) => {
 //   const antihistamines = [

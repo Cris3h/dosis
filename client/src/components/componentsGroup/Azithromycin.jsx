@@ -29,7 +29,7 @@ const Azithromycin = () => {
     <section>
       <button type="submit" onClick={() => handleSubmit()}>calculate</button>
     </section>
-    <p>each dose: {azithro ? azithro : null}ml</p>
+    <p>each dose: {azithro ? azithro : ''} ml / 24hrs</p>
   </div>
   )
 }

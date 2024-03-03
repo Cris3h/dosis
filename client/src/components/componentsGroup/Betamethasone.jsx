@@ -28,8 +28,8 @@ const Betamethasone = () => {
       <section>
         <button type="submit" onClick={() => handleSubmit()}>calculate</button>
       </section>
-      <p>quatity of drops: {betamethasoneState ? betamethasoneState : null}</p>
-      <q>3 times per day, continue for only 3 days.</q>
+      <p>quatity of drops: {betamethasoneState ? betamethasoneState : ''} drops / 8hrs</p>
+      <q>Dose: 3 times per day, continue for only 3 days.</q>
     </div>
   );
 }

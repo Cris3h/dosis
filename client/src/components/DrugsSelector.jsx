@@ -17,8 +17,8 @@ const Drugs = ({ medList }) => {
   return (
     <>
       <label className={styles.label}>2nd step: </label>
-      <select className={styles.select} onChange={handleSelect}>
-        <option style={{ display: "none" }}>Choose the drug</option>
+      <select className={styles.select} onChange={handleSelect} defaultValue=''>
+        <option value='' disabled>Choose the drug</option>
         {listFind?.drugs.map((drugName, index) => (
           <option key={index} value={drugName} className={styles.option}>
             {drugName}
