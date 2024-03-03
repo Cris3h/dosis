@@ -1,10 +1,30 @@
 .boxContainer{
     display: flex;
-    border: 2px white solid;
-    height: 400px;
-    width: calc(100% - 35%);
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    width: calc(100% - 35%);
+}
+
+.dataBox{
+    display: flex;
+    margin: 50px 0 12px 0;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: inherit;
+    border: 2px white solid;
+ 
+}
+
+.boxContainer section {
+    width: inherit;
+}
+
+.boxContainer section p{
+    font-weight: bold;
+    color: rgb(199, 201, 201);
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
 }

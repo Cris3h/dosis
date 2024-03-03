@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "@/styles/drugs.module.css";
 import drugs from "@/utils/drugs.json";
 import DataBox from "./DataBox";
+import LegalDisclaimer from "./LegalDisclaimer";
 
 const Drugs = ({ medList }) => {
   const [singleMed, setSingleMed] = useState(undefined);
@@ -26,7 +27,7 @@ const Drugs = ({ medList }) => {
         ))}
       </select>
       {
-        singleMed && <DataBox medGroup={medList} medicine={singleMed}/>
+        singleMed && <DataBox medGroup={medList} medicine={singleMed}/> 
       }
     </>
   );

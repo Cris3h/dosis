@@ -5,6 +5,7 @@ import arrowDown from "../../public/images/arrowDown.svg";
 import styles from "./page.module.css";
 import Select from "@/components/Select";
 import Footer from "@/components/Footer";
+import LegalDisclaimer from "@/components/LegalDisclaimer";
 
 export default function Home() {
 
@@ -17,7 +18,7 @@ export default function Home() {
         <Header />
       </div>
       <section className={styles.sectionStart}>
-        <p>Hey there! Need help with dosage?</p>
+        <p>Hey there! Need help with dosage? *</p>
         <p>
           You're super close to nailing it! Just finish up the quick
           questionnaire, and we'll get you sorted!
@@ -36,6 +37,9 @@ export default function Home() {
       </section>
       <div id="select" className={styles.views}>
         <Select />
+      </div>
+      <div>
+        
       </div>
       <Footer />
     </div>
