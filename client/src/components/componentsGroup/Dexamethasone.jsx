@@ -1,37 +1,42 @@
-import React, { useState } from 'react';
-import { dexamethasone } from '@/utils';
-import styles from '@/styles/shared.module.css';
+import React, { useState } from "react";
+import { dexamethasone } from "@/utils";
+import styles from "@/styles/shared.module.css";
 
 const Dexamethasone = () => {
   const [input, setInput] = useState(undefined);
   const [dexamethasoneState, setDexamethasoneState] = useState();
 
-
-  const handleInput = (event) =>{
-    event?.target.value && event.target.value !== undefined 
-    ? setInput(event.target.value)
-    : setInput(undefined)
+  const handleInput = (event) => {
+    event?.target.value && event.target.value !== undefined
+      ? setInput(event.target.value)
+      : setInput(undefined);
   };
 
-
-  const handleSubmit = ()=>{
-    const response = dexamethasone(input)
-    const newState = response.toFixed(2)
-    setDexamethasoneState(newState)
-  }
+  const handleSubmit = () => {
+    const response = dexamethasone(input);
+    const newState = response.toFixed(2);
+    setDexamethasoneState(newState);
+  };
 
   return (
-    <div className={styles.boxContainer}>
-      <section>
+    <div className={styles.dataContainer}>
+      <section className={styles.inputContainer}>
         <label>weight (kg's): </label>
-        <input type="number" onChange={(e)=> handleInput(e)} />
+        <input type="number" onChange={(e) => handleInput(e)} />
       </section>
-      <section>
-        <button type="submit" onClick={() => handleSubmit()}>calculate</button>
+      <section className={styles.buttonContainer}>
+        <button type="submit" onClick={() => handleSubmit()}>
+          calculate
+        </button>
       </section>
-      <p>each dose (injectable): {dexamethasoneState ? dexamethasoneState : null} ml / 12hrs</p>
+      <section className={styles.dataParagraph}>
+        <p>
+          each dose (injectable):{" "}
+          {dexamethasoneState ? dexamethasoneState : null} ml / 12hrs
+        </p>
+      </section>
     </div>
   );
-}
+};
 
-export default Dexamethasone
+export default Dexamethasone;

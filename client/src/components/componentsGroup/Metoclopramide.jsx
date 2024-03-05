@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { metoclopramide } from '@/utils';
-import styles from '@/styles/shared.module.css';
+import React, { useState } from "react";
+import { metoclopramide } from "@/utils";
+import styles from "@/styles/shared.module.css";
 
 const Metoclopramide = () => {
   const [input, setInput] = useState();
@@ -8,49 +8,56 @@ const Metoclopramide = () => {
   const [metoclopramideState, setMetoclopramideState] = useState();
 
   const handleInput = (event) => {
-    event?.target.value && event.target.value !== undefined 
-    ? setInput(event.target.value)
-    : setInput(undefined)
-  }
+    event?.target.value && event.target.value !== undefined
+      ? setInput(event.target.value)
+      : setInput(undefined);
+  };
   const handleSelect = (event) => {
     event?.target.value && event.target.value !== undefined
-    ? setOption(event.target.value)
-    : setOption(undefined)
-  }
-  const handleSubmit = ()=>{
-    const response = metoclopramide(input, option)
-    setMetoclopramideState(response)
-  }
-
+      ? setOption(event.target.value)
+      : setOption(undefined);
+  };
+  const handleSubmit = () => {
+    const response = metoclopramide(input, option);
+    setMetoclopramideState(response);
+  };
 
   return (
-    <div className={styles.boxContainer}>
-    <section>
-      <label>weight (kg's): </label>
-      <input type="number" onChange={(e)=> handleInput(e)} />
-    </section>
-
-    <section>
-      <label>presentation: </label>
-      <select name="mg" onChange={(e) => handleSelect(e)} defaultValue=''>
-        <option value="" disabled> form </option>
-        <option value="injectable">injectable</option>
-        <option value="drops">drops</option>
-      </select>
+    <div className={styles.dataContainer}>
+      <section className={styles.inputContainer}>
+        <label>weight (kg's): </label>
+        <input type="number" onChange={(e) => handleInput(e)} />
       </section>
-    <section>
-      <button type="submit" onClick={() => handleSubmit()}>calculate</button>
-    </section>
-    <p>each dose: {metoclopramideState ? metoclopramideState : ''} / 8hrs</p>
-  </div>
 
+      <section className={styles.selectContainer}>
+        <label>presentation: </label>
+        <select name="mg" onChange={(e) => handleSelect(e)} defaultValue="">
+          <option value="" disabled>
+            {" "}
+            form{" "}
+          </option>
+          <option value="injectable">injectable</option>
+          <option value="drops">drops</option>
+        </select>
+      </section>
+      <section className={styles.buttonContainer}>
+        <button type="submit" onClick={() => handleSubmit()}>
+          calculate
+        </button>
+      </section>
+      <section className={styles.dataParagraph}>
+        <p>
+          each dose: {metoclopramideState ? metoclopramideState : ""} / 8hrs
+        </p>
+      </section>
+    </div>
 
-//   <div>
-//   <p>This drug is not available yet!</p>
-//   <br />
-//   <p>It will be available soon tho {'(:'}</p>
-// </div>
-  )
-}
+    //   <div>
+    //   <p>This drug is not available yet!</p>
+    //   <br />
+    //   <p>It will be available soon tho {'(:'}</p>
+    // </div>
+  );
+};
 
-export default Metoclopramide
+export default Metoclopramide;

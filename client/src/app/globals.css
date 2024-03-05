@@ -1,4 +1,13 @@
 body{
-  background-color: black;
-  color: whitesmoke;
+  /* background-color: black; */
+  /* background-color: #0d1717; */
+  /* background-color: #101720; */
+  /* background-color: #171717; */
+  /* background-color: #011222;   */
+  /* background-color: #020D19; */
+  /* color: whitesmoke; */
+
+  /* better till now*/
+  background-color: #0c0c0c;
+  color: rgba(245, 245, 245, 0.831);
 }

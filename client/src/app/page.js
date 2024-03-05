@@ -1,17 +1,18 @@
 'use client'
-import Header from "@/components/Header";
 import Image from "next/image";
-import arrowDown from "../../public/images/arrowDown.svg";
-import styles from "./page.module.css";
-import Select from "@/components/Select";
+import Header from "@/components/Header";
+import Select from "@/components/FirstStep";
 import Footer from "@/components/Footer";
-import LegalDisclaimer from "@/components/LegalDisclaimer";
+import arrowDown from "../../public/images/arrowDown.svg";
+
+import styles from "./page.module.css";
 
 export default function Home() {
 
   const scrollDown = () => {
     document.getElementById('select').scrollIntoView({behavior:'smooth'})
   }
+
   return (
     <div>
       <div className={styles.headerContainer}>

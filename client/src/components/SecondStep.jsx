@@ -1,25 +1,30 @@
-"use client";
 import React, { useEffect, useState } from "react";
-import styles from "@/styles/drugs.module.css";
-import drugs from "@/utils/drugs.json";
 import DataBox from "./DataBox";
-import LegalDisclaimer from "./LegalDisclaimer";
+import drugs from "@/utils/drugs.json";
+import styles from "@/styles/secondstep.module.css";
 
-const Drugs = ({ medList }) => {
+const SecondStep = ({ medList }) => {
   const [singleMed, setSingleMed] = useState(undefined);
+  const [key, setKey] = useState(0)
   const listFind = drugs?.groups.find((e) => e.name === medList);
+
   const handleSelect = (event) => {
     event.target.value !== "Choose the drug" && event.target.value !== singleMed
       ? setSingleMed(event.target.value)
       : undefined;
   };
 
+  useEffect(() => {
+    setSingleMed(undefined); 
+    setKey(optkey => optkey + 1);
+  }, [medList]);
+
 
   return (
-    <>
-      <label className={styles.label}>2nd step: </label>
-      <select className={styles.select} onChange={handleSelect} defaultValue=''>
-        <option value='' disabled>Choose the drug</option>
+    <div className={styles.selectContainer}>
+      <label className={styles.label}>2nd step</label>
+      <select key={key} className={styles.select} onChange={handleSelect} defaultValue=''>
+        <option value='' disabled className={styles.option}>Choose the drug</option>
         {listFind?.drugs.map((drugName, index) => (
           <option key={index} value={drugName} className={styles.option}>
             {drugName}
@@ -29,8 +34,8 @@ const Drugs = ({ medList }) => {
       {
         singleMed && <DataBox medGroup={medList} medicine={singleMed}/> 
       }
-    </>
+    </div>
   );
 };
 
-export default Drugs;
+export default SecondStep;

@@ -3,28 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: calc(100% - 35%);
+    width: calc(100% - 10%);
 }
 
 .dataBox{
-    display: flex;
     margin: 50px 0 12px 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 400px;
     width: inherit;
     border: 2px white solid;
- 
+    border-radius: 10px;
 }
 
 .boxContainer section {
     width: inherit;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
-.boxContainer section p{
-    font-weight: bold;
+.disclaimer{
+    font-weight: normal;
     color: rgb(199, 201, 201);
-    font-size: small;
+    font-size: medium;
     font-family: 'Times New Roman', Times, serif;
+}
+.bold{
+    font-size: large;
 }

@@ -1,10 +1,9 @@
-"use client";
 import React, { useState } from "react";
-import styles from "@/styles/select.module.css";
-import Drugs from "./DrugsSelector";
+import Drugs from "./SecondStep";
 import drugs from "@/utils/drugs.json";
+import styles from "@/styles/firststep.module.css";
 
-const Select = () => {
+const FirstStep = () => {
   const [drugSelected, setDrugSelected] = useState("");
 
   const handleSelect = (event) => {
@@ -16,10 +15,10 @@ const Select = () => {
 
 
   return (
-    <>
-      <label className={styles.label}> 1st step: </label>
+    <div className={styles.selectContainer}>
+      <label className={styles.label}> 1st step </label>
       <select name="first" className={styles.select} onChange={handleSelect} defaultValue=''>
-        <option value='' disabled>Choose the drug group</option>
+        <option value='' disabled className={styles.option}>Choose the group</option>
         {drugs.groups.map((opt, index) => (
           <option key={index} value={opt.name} className={styles.option}>
             {opt.name}
@@ -27,8 +26,8 @@ const Select = () => {
         ))}
       </select>
       {drugSelected && <Drugs medList={drugSelected} />}
-    </>
+    </div>
   );
 };
 
-export default Select;
+export default FirstStep;

@@ -1,4 +1,51 @@
-.boxContainer{
-    display: flex;
-    flex-direction: column;
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* ------------------------------ */
+.inputContainer {
+    margin-bottom: 1rem;
+}
+
+.inputContainer label {
+    color: #ADB7BE;
+    margin-right: 8px;
+
+}
+.inputContainer input {
+    width: 100px;   
+}
+
+/* -------------------------------- */
+.selectContainer {
+    margin-bottom: 1rem;
+}
+
+.selectContainer label {
+    color: #ADB7BE;
+    margin-right: 8px;
+
+}
+
+/* -------------------------------- */
+
+.buttonContainer button{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: #ADB7BE;
+    width: 150px;
+    height: 25px;
+}
+
+.dataParagraph {
+    margin: 10px 25px;
+}
+
+.ceterizineRecomendation{
+    margin: 10px 25px;
 }

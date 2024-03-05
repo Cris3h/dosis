@@ -20,7 +20,7 @@ const PatricHand = Patrick_Hand({
 
 
 export const metadata = {
-  title: "Dr Dosage",
+  title: "Dr Dosage - pediatrician doses",
   description: "pediatrician doses",
 };
 

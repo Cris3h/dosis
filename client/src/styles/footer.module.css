@@ -3,6 +3,7 @@
   grid-template-rows: 1fr;
   align-items: center;
   border-top: 1px solid #adb;
+  margin-top: 5rem;
 }
 
 .footerContainer a {

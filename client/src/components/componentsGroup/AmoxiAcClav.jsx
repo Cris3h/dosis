@@ -1,53 +1,60 @@
-import React, { useState } from 'react';
-import { amoxicillinAC } from '@/utils';
+import React, { useState } from "react";
+import { amoxicillinAC } from "@/utils";
 
-import styles from '@/styles/shared.module.css'
+import styles from "@/styles/shared.module.css";
 
 const AmoxiAcClav = () => {
   const [input, setInput] = useState(undefined);
   const [option, setOption] = useState(undefined);
   const [aacState, setAacState] = useState();
 
-
-  const handleInput = (event) =>{
-    event?.target.value && event.target.value !== undefined 
-    ? setInput(event.target.value)
-    : setInput(undefined)
+  const handleInput = (event) => {
+    event?.target.value && event.target.value !== undefined
+      ? setInput(event.target.value)
+      : setInput(undefined);
   };
 
   const handleSelect = (event) => {
     event?.target.value && event.target.value !== undefined
-    ? setOption(event.target.value)
-    : setOption(undefined)
-  }
+      ? setOption(event.target.value)
+      : setOption(undefined);
+  };
 
-  const handleSubmit = ()=>{
-    const response = amoxicillinAC(input, option)
-    const newState = response.toFixed(2)
-    setAacState(newState)
-  }
+  const handleSubmit = () => {
+    const response = amoxicillinAC(input, option);
+    const newState = response.toFixed(2);
+    setAacState(newState);
+  };
 
   return (
-    <div className={styles.boxContainer}>
-      <section>
+    <div className={styles.dataContainer}>
+      <section className={styles.inputContainer}>
         <label>weight (kg's): </label>
-        <input type="number" onChange={(e)=> handleInput(e)} />
+        <input type="number" onChange={(e) => handleInput(e)} />
       </section>
 
-      <section>
-      <label>select presentation: </label>
-      <select name="mg" onChange={(e) => handleSelect(e)} defaultValue=''>
-      <option value='' disabled>presentation</option>
-        <option value="400">5ml: 400mg</option>
-        <option value="600">5ml: 600mg</option>
-      </select>
+      <section className={styles.selectContainer}>
+        <label>select presentation: </label>
+        <select name="mg" onChange={(e) => handleSelect(e)} defaultValue="">
+          <option value="" disabled>
+            presentation
+          </option>
+          <option value="400">5ml: 400mg</option>
+          <option value="600">5ml: 600mg</option>
+        </select>
       </section>
-      <section>
-        <button type="submit" onClick={() => handleSubmit()}>calculate</button>
+
+      <section className={styles.buttonContainer}>
+        <button type="submit" onClick={() => handleSubmit()} class="button">
+          calculate
+        </button>
       </section>
-      <p>each dose: {aacState ? aacState : ''} ml / 8hrs</p>
+
+      <section className={styles.dataParagraph}>
+        <p>each dose: {aacState ? aacState : ""} ml / 8hrs</p>
+      </section>
     </div>
   );
-}
+};
 
-export default AmoxiAcClav
+export default AmoxiAcClav;

@@ -1,0 +1,17 @@
+.selectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.label{
+    font-size: xx-large;
+}
+.select{
+    height: 50px;
+    width: 200px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
