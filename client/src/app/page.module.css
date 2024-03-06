@@ -46,6 +46,14 @@
   margin-top: 15rem;
 }
 
+@media (min-height: 600px){
+  .footer{
+    display: grid;
+    height: auto;
+    margin-top: 30rem;
+  }
+}
+
 
 /* Enable hover only on non-touch devices */
 /* 
