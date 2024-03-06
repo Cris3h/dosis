@@ -1,4 +1,5 @@
 'use client'
+import React, { useRef } from "react";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Select from "@/components/FirstStep";
@@ -8,10 +9,14 @@ import arrowDown from "../../public/images/arrowDown.svg";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const selectRef = useRef()
 
   const scrollDown = () => {
-    document.getElementById('select').scrollIntoView({behavior:'smooth'})
+    selectRef.current.scrollIntoView({ behavior: 'smooth' })
   }
+  // const scrollDown = () => {
+  //   document.getElementById('select').scrollIntoView({behavior:'smooth'})
+  // }
 
   return (
     <div>
@@ -36,7 +41,8 @@ export default function Home() {
           />
         </div>
       </section>
-      <div id="select" className={styles.views}>
+      {/* <div id="select" className={styles.views}> */}
+      <div ref={selectRef} className={styles.views}>
         <Select />
       </div>
 
