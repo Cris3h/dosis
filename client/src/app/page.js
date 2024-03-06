@@ -19,7 +19,7 @@ export default function Home() {
         <Header />
       </div>
       <section className={styles.sectionStart}>
-        <p>Hey there! Need help with dosage? *</p>
+        <p>Hey there! Need help with your pediatric dosage? *</p>
         <p>
           You're super close to nailing it! Just finish up the quick
           questionnaire, and we'll get you sorted!
@@ -39,7 +39,7 @@ export default function Home() {
       <div id="select" className={styles.views}>
         <Select />
       </div>
-      
+
       <div className={styles.footer}>
       <Footer />
       </div>

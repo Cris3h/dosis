@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import cafecito from '../../public/images/cafecito.png'
 import styles from "@/styles/footer.module.css";
-import Link from "next/link";
 
 const Footer = () => {
     const anchor = ()=>{
