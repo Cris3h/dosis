@@ -39,10 +39,10 @@ export default function Home() {
       <div id="select" className={styles.views}>
         <Select />
       </div>
-      <div>
-        
-      </div>
+      
+      <div className={styles.footer}>
       <Footer />
+      </div>
     </div>
   );
 }

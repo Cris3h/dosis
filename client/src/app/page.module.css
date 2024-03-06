@@ -39,6 +39,12 @@
   padding-top: 150px;
 }
 
+
+.footer{
+  display: grid;
+  height: auto;
+  margin-top: 15rem;
+}
 /* Enable hover only on non-touch devices */
 /* 
 @media (hover: hover) and (pointer: fine) {
