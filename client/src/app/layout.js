@@ -9,15 +9,14 @@ const gloriaHallelujah = Gloria_Hallelujah({
 });
 
 const IndieFlower = Indie_Flower({
-  subsets: ['latin'],
-  weight: '400'
-})
+  subsets: ["latin"],
+  weight: "400",
+});
 
 const PatricHand = Patrick_Hand({
-  subsets: ['latin'],
-  weight:'400'
-})
-
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const metadata = {
   title: "Dr Dosage - pediatrician doses",
@@ -42,12 +41,33 @@ export default function RootLayout({ children }) {
           sizes="<generated>"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Pediatric common drugs dose helper" />
+
+        <meta property="og:title" content="DrDosage - Pediatric dose helper" />
+        <meta
+          property="og:description"
+          content="Pediatric common drugs dose helper"
+        />
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/Cris3h/dosis/main/client/src/app/favicon.ico"
+        />
+        <meta property="og:url" content="https://drhelper.vercel.app/" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:title" content="DrDosage - Pediatric dose helper" />
+        <meta
+          name="twitter:description"
+          content="Pediatric common drugs dose helper"
+        />
+        <meta
+          name="twitter:image"
+          content="https://raw.githubusercontent.com/Cris3h/dosis/main/client/src/app/favicon.ico"
+        />
+        <meta name="twitter:card" content="DrDosage - dosage helper" />
       </head>
-      {/* <body className={gloriaHallelujah.className}>{children}</body> */}
-      {/* <body className={IndieFlower.className}>{children}</body> */}
       <body className={PatricHand.className}>{children}</body>
-
-
     </html>
   );
 }
