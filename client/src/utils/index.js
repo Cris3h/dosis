@@ -9,6 +9,7 @@ export const amoxicillin = (w, mg) => {
   return result;
 };
 
+
 export const amoxicillinAC = (w, mg) => {
   const immutable = 40;
   let calcDosis = (((w * immutable) / 3) * 5) / mg;
@@ -37,6 +38,7 @@ export const penicillinV = (w) => {
     return ml; //x 10 dias
   }
 };
+
 
 export const paracetamol = (w) => {
   return w * 2; // ?
@@ -346,8 +348,11 @@ export const claritromicina = (w, mg) => {
 };
 
 export const cefalexina = (w, mg) => {
-  const constante = 25;
-  return (((w * constante) / 4) * 5) / mg;
+  const immutable = 100;
+  let calcDosis = (((w * immutable) / 3) * 5) / mg;
+  let result = calcDosis / 3;
+
+  return result;
 };
 
 // export const diazepam = (mg, w) => {

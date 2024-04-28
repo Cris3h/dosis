@@ -19,6 +19,7 @@ import Dexamethasone from "@/components/componentsGroup/Dexamethasone";
 import Hydrocortisone from "@/components/componentsGroup/Hydrocortisone";
 import Metoclopramide from "@/components/componentsGroup/Metoclopramide";
 import Azithromycin from "@/components/componentsGroup/Azithromycin";
+import Cefalexine from "@/components/componentsGroup/Cefalixine";
 
 
 
@@ -45,5 +46,6 @@ export const componentChooser = (medicine) => {
     if (medicine === "dexamethasone") return <Dexamethasone />;
     if (medicine === "hydrocortisone") return <Hydrocortisone />;
     if (medicine === "metoclopramide") return <Metoclopramide />;
+    if (medicine === 'cefalexine') return <Cefalexine />
     return <p>Sorry, we're working for you. </p>; // Manejo para medicamentos no encontrados
   };
