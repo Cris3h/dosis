@@ -1,5 +1,5 @@
 'use client'
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Select from "@/components/FirstStep";
@@ -7,19 +7,23 @@ import Footer from "@/components/Footer";
 import arrowDown from "../../public/images/arrowDown.svg";
 
 import styles from "./page.module.css";
+import Modal from "@/components/Modal";
 
 export default function Home() {
+  const [modal, setModal] = useState(true);
   const selectRef = useRef()
 
   const scrollDown = () => {
     selectRef.current.scrollIntoView({ behavior: 'smooth' })
   }
-  // const scrollDown = () => {
-  //   document.getElementById('select').scrollIntoView({behavior:'smooth'})
-  // }
+
+  const closeModal = ()=>{
+    setModal(false)
+  }
 
   return (
     <div>
+      <Modal isOpen={modal} onClose={closeModal}/>
       <div className={styles.headerContainer}>
         <Header />
       </div>
@@ -41,11 +45,9 @@ export default function Home() {
           />
         </div>
       </section>
-      {/* <div id="select" className={styles.views}> */}
       <div ref={selectRef} className={styles.views}>
         <Select />
       </div>
-
       <div className={styles.footer}>
       <Footer />
       </div>

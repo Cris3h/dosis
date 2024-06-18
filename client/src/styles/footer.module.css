@@ -2,7 +2,8 @@
   display: grid;
   grid-template-rows: 1fr;
   align-items: center;
-  border-top: 1px solid #adb;
+  /* border-top: 1px solid #adb; */
+  border-top: 1px solid #e64325;
   margin-top: 5rem;
 }
 
