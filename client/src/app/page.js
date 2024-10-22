@@ -51,6 +51,7 @@ export default function Home() {
       <div className={styles.footer}>
       <Footer />
       </div>
+      <script async src="http://localhost:3000/tracker.js" data-ackee-server="http://localhost:3000/" data-ackee-domain-id='6251dc40-e6b4-4e4a-9dc8-918dbc785475'></script>
     </div>
   );
 }
