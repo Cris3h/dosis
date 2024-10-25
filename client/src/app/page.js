@@ -51,7 +51,7 @@ export default function Home() {
       <div className={styles.footer}>
       <Footer />
       </div>
-      <script async src="http://100.71.94.17:2337/tracker.js" data-ackee-server="http://100.71.94.17:2337/" data-ackee-domain-id="e4db9d33-0b04-4510-8044-2781d3cc9b32"></script>
+      <script async src="http://100.71.94.17:2337/tracker.js" data-ackee-server="http://100.71.94.17:2337/" data-ackee-domain-id="45aeacd8-5e65-4849-b9cc-886bbfb71e99"></script>
     </div>
   );
 }
