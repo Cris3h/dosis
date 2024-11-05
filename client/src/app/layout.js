@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
         data-ackee-server="https://ackee.fly.dev"
         data-ackee-domain-id="16fb5d57-3f82-4e5e-baf6-098f4af01f11"
 
-        
+
         data-ackee-opts-ignore-dnt="false"
         data-ackee-opts-detailed="true"
 
@@ -84,13 +84,6 @@ export default function RootLayout({ children }) {
         data-ackee-with-credentials="true"
 
         ></script>
-
-        <script async src="https://ackee.example.com/tracker.js" 
-        data-ackee-server="https://ackee.example.com" 
-        data-ackee-domain-id="1234abcd-5678efgh-9012ijkl"
-         data-ackee-ignore-localhost="true"
-          data-ackee-detailed="true"
-           data-ackee-opts='{"ignorePatterns": ["/admin"], "ignoreOwnVisits": true}'></script>
 
       </head>
       <body className={PatricHand.className}>{children}</body>
