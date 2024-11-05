@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
 
         data-ackee-opts-ignore-dnt="false"
         data-ackee-opts-detailed="true"
-        // data-ackee-opts={}
+        data-ackee-opts="{'detailed'='true'}"
 
 
         data-ackee-options="{'ignoreLocalhost'=false}"
