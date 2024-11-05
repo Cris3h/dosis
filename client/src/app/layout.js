@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
 
         data-ackee-opts-ignore-dnt="false"
         data-ackee-opts-detailed="true"
-        data-ackee-opts='{"detailed": true}'
+        // data-ackee-opts='{"detailed": true}'
 
 
         data-ackee-options="{'ignoreLocalhost'=false}"
@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
         data-ackee-ignore-localhost="false"
         data-ackee-ignore-own-visits="false"
         data-ackee-detailed-device="true"
-        data-ackee-with-credentials="true"
+        // data-ackee-with-credentials="true"
 
         ></script>
 
