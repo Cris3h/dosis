@@ -66,12 +66,22 @@ export default function RootLayout({ children }) {
           content="https://raw.githubusercontent.com/Cris3h/dosis/main/client/src/app/favicon.ico"
         />
         <meta name="twitter:card" content="DrDosage - dosage helper" />
-        <script async src="https://ackee.fly.dev/tracker.js"
+        <script
+        async src="https://ackee.fly.dev/tracker.js"
         data-ackee-server="https://ackee.fly.dev"
         data-ackee-domain-id="16fb5d57-3f82-4e5e-baf6-098f4af01f11"
+
+        
         data-ackee-opts-ignore-dnt="false"
         data-ackee-opts-detailed="true"
 
+
+        data-ackee-options="{'ignoreLocalhost'=false}"
+        data-ackee-detailed="true"
+        data-ackee-ignore-localhost="false"
+        data-ackee-ignore-own-visits="false"
+        data-ackee-detailed-device="true"
+        data-ackee-with-credentials="true"
 
         ></script>
 
