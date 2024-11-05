@@ -82,6 +82,7 @@ export default function RootLayout({ children }) {
         data-ackee-ignore-localhost="false"
         data-ackee-ignore-own-visits="false"
         data-ackee-detailed-device="true"
+        data-ackee-with-credentials="true"
 
         ></script>
 
