@@ -76,22 +76,22 @@ export default function RootLayout({ children }) {
           data-ackee-domain-id="d9482f3f-8108-45a1-a456-36ef34a8c485"
 
 
-          // data-ackee-opts-ignore-dnt="false"
-          // data-ackee-opts-detailed="true"
+          data-ackee-opts-ignore-dnt="false"
+          data-ackee-opts-detailed="true"
           // data-ackee-opts='{"detailed": true}'
 
 
-          // data-ackee-options="{'ignoreLocalhost'=false}"
-          // data-ackee-detailed="true"
-          // data-ackee-ignore-localhost="false"
-          // data-ackee-ignore-own-visits="false"
-          // data-ackee-detailed-device="true"
-          // data-ackee-with-credentials="true"
+          data-ackee-options="{'ignoreLocalhost'=false}"
+          data-ackee-detailed="true"
+          data-ackee-ignore-localhost="false"
+          data-ackee-ignore-own-visits="false"
+          data-ackee-detailed-device="true"
+          data-ackee-with-credentials="true"
 
 
           data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'
 
-          
+
         ></script>
 
 
