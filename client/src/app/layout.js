@@ -70,31 +70,31 @@ export default function RootLayout({ children }) {
           // async src="https://ackee.fly.dev/tracker.js"
           // data-ackee-server="https://ackee.fly.dev"
           // data-ackee-domain-id="16fb5d57-3f82-4e5e-baf6-098f4af01f11"
+          // data-ackee-opts-ignore-dnt="false"
+          // data-ackee-opts-detailed="true"
+          // data-ackee-opts='{"detailed": true}'
+          // data-ackee-options="{'ignoreLocalhost'=false}"
+          // data-ackee-detailed="true"
+          // data-ackee-ignore-localhost="false"
+          // data-ackee-ignore-own-visits="false"
+          // data-ackee-detailed-device="true"
+          // data-ackee-with-credentials="true"
+
+
+          // async src="https://sh1cc4n7-3000.brs.devtunnels.ms/tracker.js" 
+          // data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/"
+          // data-ackee-domain-id="d9482f3f-8108-45a1-a456-36ef34a8c485"
+
 
           async src="https://sh1cc4n7-3000.brs.devtunnels.ms/tracker.js" 
-          data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/"
-          data-ackee-domain-id="d9482f3f-8108-45a1-a456-36ef34a8c485"
-
-
-          data-ackee-opts-ignore-dnt="false"
-          data-ackee-opts-detailed="true"
-          // data-ackee-opts='{"detailed": true}'
-
-
-          data-ackee-options="{'ignoreLocalhost'=false}"
-          data-ackee-detailed="true"
-          data-ackee-ignore-localhost="false"
-          data-ackee-ignore-own-visits="false"
-          data-ackee-detailed-device="true"
-          data-ackee-with-credentials="true"
-
+          data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/" 
+          data-ackee-domain-id="e0afa638-887c-4c79-947e-8f212151e50e"
 
           data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'
-
-
         ></script>
 
 
+<script ></script>
       </head>
       <body className={PatricHand.className}>{children}</body>
     </html>
