@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
           data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script> */}
 
 
-        <script async src="https://0x66qv4s-3002.brs.devtunnels.mstracker.js" 
+        <script async src="https://0x66qv4s-3002.brs.devtunnels.ms/tracker.js" 
         data-ackee-server="https://0x66qv4s-3002.brs.devtunnels.ms" 
         data-ackee-domain-id="b615b2a8-6f43-4ddb-bd9f-e2cd8a89cc3c" 
         data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script>
