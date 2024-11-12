@@ -97,7 +97,9 @@ export default function RootLayout({ children }) {
           data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script> */}
 
 
-<script async src="https://0x66qv4s-3002.brs.devtunnels.ms/tracker.js" data-ackee-server="https://0x66qv4s-3002.brs.devtunnels.ms/" data-ackee-domain-id="fb93cc99-8316-48dd-bd44-d86d7406ffac" data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script>
+<script async src="https://0x66qv4s-3002.brs.devtunnels.ms/tracker.js" data-ackee-server="https://0x66qv4s-3002.brs.devtunnels.ms" data-ackee-domain-id="1f89ef84-ff31-4562-9aa0-ccd776fa0f41"></script>
+
+
       </head>
       <body className={PatricHand.className}>{children}</body>
     </html>
