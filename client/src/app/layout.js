@@ -2,6 +2,7 @@ import { Gloria_Hallelujah } from "next/font/google";
 import { Indie_Flower } from "next/font/google";
 import { Patrick_Hand } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
@@ -41,7 +42,7 @@ export default function RootLayout({ children }) {
           sizes="<generated>"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="description" content="Pediatric common drugs dose helper" />
 
         <meta property="og:title" content="DrDosage - Pediatric dose helper" />
@@ -66,38 +67,33 @@ export default function RootLayout({ children }) {
           content="https://raw.githubusercontent.com/Cris3h/dosis/main/client/src/app/favicon.ico"
         />
         <meta name="twitter:card" content="DrDosage - dosage helper" />
-        {/* <script
-          // async src="https://ackee.fly.dev/tracker.js"
-          // data-ackee-server="https://ackee.fly.dev"
-          // data-ackee-domain-id="16fb5d57-3f82-4e5e-baf6-098f4af01f11"
-          // data-ackee-opts-ignore-dnt="false"
-          // data-ackee-opts-detailed="true"
-          // data-ackee-opts='{"detailed": true}'
-          // data-ackee-options="{'ignoreLocalhost'=false}"
-          // data-ackee-detailed="true"
-          // data-ackee-ignore-localhost="false"
-          // data-ackee-ignore-own-visits="false"
-          // data-ackee-detailed-device="true"
-          // data-ackee-with-credentials="true"
 
-          // async src="https://sh1cc4n7-3000.brs.devtunnels.ms/tracker.js" 
-          // data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/"
-          // data-ackee-domain-id="d9482f3f-8108-45a1-a456-36ef34a8c485"
-
-          async src="https://sh1cc4n7-3000.brs.devtunnels.ms/tracker.js" 
-          data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/" 
-          data-ackee-domain-id="e0afa638-887c-4c79-947e-8f212151e50e"
-
-          data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'
-        ></script> */}
-
-        {/* <script async src="https://sh1cc4n7-3000.brs.devtunnels.ms/tracker.js"
-          data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/"
-          data-ackee-domain-id="64da6d5f-56e3-49b1-aa5f-de65c29952f4"
-          data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script> */}
+        {/* Matomo Tracking Script */}
+        {/* <Script
+          id="matomo-tracking"
+          strategy="afterInteractive" // Carga el script después de que la página esté interactiva
+          dangerouslySetInnerHTML={{
+            __html: `
+              var _paq = window._paq = window._paq || [];
+              _paq.push(['trackPageView']);
+              _paq.push(['enableLinkTracking']);
+              (function() {
+                var u = '//localhost:8080/';
+                _paq.push(['setTrackerUrl', u + 'matomo.php']);
+                _paq.push(['setSiteId', '1']);
+                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+              })();
+            `,
+          }}
+        /> */}
 
 
-<script async src="https://0x66qv4s-3002.brs.devtunnels.ms/tracker.js" data-ackee-server="https://0x66qv4s-3002.brs.devtunnels.ms" data-ackee-domain-id="1f89ef84-ff31-4562-9aa0-ccd776fa0f41"></script>
+        <script 
+        async src="https://0x66qv4s-3002.brs.devtunnels.ms/tracker.js" 
+        data-ackee-server="https://0x66qv4s-3002.brs.devtunnels.ms/" 
+        data-ackee-domain-id="60c1de67-47c4-4fd4-a76f-d4cdcf932cce"
+        data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script>
 
 
       </head>
