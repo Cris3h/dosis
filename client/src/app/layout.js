@@ -67,7 +67,6 @@ export default function RootLayout({ children }) {
           content="https://raw.githubusercontent.com/Cris3h/dosis/main/client/src/app/favicon.ico"
         />
         <meta name="twitter:card" content="DrDosage - dosage helper" />
-
         {/* Matomo Tracking Script */}
         {/* <Script
           id="matomo-tracking"
@@ -87,14 +86,6 @@ export default function RootLayout({ children }) {
             `,
           }}
         /> */}
-
-
-      <script async src="https://sh1cc4n7-3001.brs.devtunnels.ms/tracker.js"
-      data-ackee-server="https://sh1cc4n7-3001.brs.devtunnels.ms/" 
-      data-ackee-domain-id="77a00eea-fbc9-446c-9337-c6c4284e6143" 
-      data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script>
-
-
       </head>
       <body className={PatricHand.className}>{children}</body>
     </html>
