@@ -86,6 +86,11 @@ export default function RootLayout({ children }) {
             `,
           }}
         /> */}
+
+        <script async src="https://sh1cc4n7-3000.brs.devtunnels.ms/tracker.js"
+          data-ackee-server="https://sh1cc4n7-3000.brs.devtunnels.ms/"
+          data-ackee-domain-id="04334e57-919f-4a65-9f0c-3019b459d2a4"
+          data-ackee-opts='{"ignoreLocalhost":false, "detailed": true}'></script>
       </head>
       <body className={PatricHand.className}>{children}</body>
     </html>
